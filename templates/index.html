@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Tool UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body class="dark">
+    <button id="themeToggle">🌙</button>
+
+<div class="Hero-text">
+    <h1 class="title">VerDex</h1>
+    <p class="subtitle"> an AI tool for entity extraction and ENG-MAL Translation for Legal Case Files.</p>
+</div>
+
+<div class="wrapper">
+
+    <div class="input-container">
+
+        <!-- File input -->
+        <label class="file-select" id="fileLabel">
+            Select file
+            <input type="file" id="fileInput">
+        </label>
+
+        <div class="divider"></div>
+
+        <!-- Modes -->
+        <div class="mode active" data-mode="extract">Extract</div>
+        <div class="mode" data-mode="translate">Translate</div>
+
+    </div>
+
+    <!-- Send -->
+    <button class="send-btn" id="sendBtn" onclick="sendData()">➤</button>
+
+</div>
+ <!-- Result Section -->
+<div class="result-container" id="resultContainer">
+
+    <h2 id="resultTitle">Result</h2>
+
+    <!-- Extract Output -->
+    <pre id="jsonResult" class="result-box hidden"></pre>
+    <button id="downloadJson" class="download-btn hidden">Download JSON</button>
+
+    <!-- Translate Output -->
+    <div id="textResult" class="result-box hidden"></div>
+    <button id="downloadPdf" class="download-btn hidden">Download PDF</button>
+    <button id="refresh" class="pg-refresh-btn hidden">Upload new file</button>
+
+</div>
