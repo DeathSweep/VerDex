@@ -5,8 +5,11 @@ import os
 # Importing Functions
 from nerParser import extract_text
 from nerEngine import get_entities
+from fileRebuilder import rebuild_translated_pdf
 
 app = Flask(__name__)
+
+last_pdf_path = ""
 
 UPLOAD_FOLDER = "uploads"
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
@@ -44,8 +47,16 @@ def upload():
     
         try:
             if mode == "translate":
-                pass
 
+                translated_pdf = rebuild_translated_pdf(filepath)
+
+                last_pdf_path = translated_pdf
+
+                return jsonify({
+                    "success": True,
+                    "download": os.path.basename(translated_pdf)
+                })
+                    
             elif mode == "extract":
                 parsed = extract_text(filepath)
                 entities = get_entities(parsed)
