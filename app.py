@@ -5,7 +5,7 @@ import os
 # Importing Functions
 from nerParser import extract_text
 from nerEngine import get_entities
-from fileRebuilder import rebuild_translated_pdf
+from fileRebuilderV2 import rebuild_pdf
 
 app = Flask(__name__)
 
@@ -29,7 +29,7 @@ def home():
 
 @app.route("/upload", methods=["POST"])
 def upload():
-    global last_docx_path, last_pdf_path
+    global last_pdf_path
 
     if "file" not in request.files:
         return jsonify({"error": "No file uploaded"}), 400
@@ -48,14 +48,20 @@ def upload():
         try:
             if mode == "translate":
 
-                translated_pdf = rebuild_translated_pdf(filepath)
+                translated_pdf = rebuild_pdf(filepath)
 
-                last_pdf_path = translated_pdf
+                if not translated_pdf:
+                    return jsonify({"error": "PDF rebuild failed"}), 500
+
+                if not os.path.exists(translated_pdf):
+                    return jsonify({"error": f"File not found: {translated_pdf}"}), 500
+
+                last_pdf_path = os.path.abspath(translated_pdf)
 
                 return jsonify({
                     "success": True,
-                    "download": os.path.basename(translated_pdf)
-                })
+                    "download": "/download-pdf"
+            })
                     
             elif mode == "extract":
                 parsed = extract_text(filepath)
@@ -72,10 +78,21 @@ def upload():
 def download_pdf():
     global last_pdf_path
 
-    if not last_pdf_path:
-        return "No file available", 400
+    print("PATH:", last_pdf_path)
+    print("EXISTS:", os.path.exists(last_pdf_path))
 
-    return send_file(last_pdf_path, as_attachment=True)
+    if not last_pdf_path:
+        return jsonify({"error": "No file available"}), 400
+
+    if not os.path.exists(last_pdf_path):
+        return jsonify({"error": "File does not exist"}), 404
+
+    return send_file(
+        last_pdf_path,
+        as_attachment=True,
+        download_name=os.path.basename(last_pdf_path),
+        mimetype="application/pdf"
+    )
 
 if __name__ == '__main__':
     app.run(debug=True)

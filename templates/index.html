@@ -43,13 +43,20 @@
 
     <!-- Extract Output -->
     <pre id="jsonResult" class="result-box hidden"></pre>
-    <button id="downloadJson" class="download-btn hidden">Download JSON</button>
 
     <!-- Translate Output -->
     <div id="textResult" class="result-box hidden"></div>
-    <button id="downloadPdf" class="download-btn hidden">Download PDF</button>
-    <button id="refresh" class="pg-refresh-btn hidden">Upload new file</button>
-
+    <div class="button-row">
+        <button id="downloadJson" class="download-btn hidden">Download JSON</button>
+    
+        <button id="downloadPdf" class="download-btn hidden">
+            Download PDF
+        </button>
+    
+        <button id="refresh" class="pg-refresh-btn hidden">
+            Upload new file
+        </button>
+    </div>
 </div>
 
 <script>
@@ -137,11 +144,14 @@
             textBox.classList.remove("hidden");
 
             pdfBtn.classList.remove("hidden");
-            docxBtn.classList.remove("hidden");
 
             // Allows downloading of result PDF
             pdfBtn.onclick = () => {
-                window.open(data.download_pdf, "_blank");
+                if (data.download) {
+                    window.open(data.download, "_blank");
+                } else {
+                    alert("Download link missing");
+                }
             };
         }
     }
@@ -175,6 +185,10 @@
         document.body.classList.toggle("dark");
 
         toggle.textContent = document.body.classList.contains("dark") ? "☀️" : "🌙";
+    });
+
+    refreshbtn.addEventListener("click", () => {
+        location.reload();
     });
     
 </script>

@@ -179,20 +179,22 @@ input[type="file"] {
     word-wrap: break-word;
 }
 
-.download-btn {
-    margin-top: 10px;
+.download-btn,
+.pg-refresh-btn {
     padding: 10px 15px;
-    border: none;
+    border: 2px solid var(--border);
     border-radius: 8px;
     cursor: pointer;
+
+    background: var(--box-bg);
+    color: var(--text);
+
+    transition: 0.2s;
 }
 
-.pg-refresh-btn {
-    margin-top: 10px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
+.download-btn:hover,
+.pg-refresh-btn:hover {
+    background: var(--hover);
 }
 
 .hidden {
@@ -200,5 +202,12 @@ input[type="file"] {
 }
 
 .show {
+    display: block;
+}
+
+.button-row {
     display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap; /* optional for mobile */
 }
