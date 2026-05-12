@@ -220,21 +220,21 @@ input[type="file"] {
 
     position: fixed;
 
-    top: 20px;
-    right: 20px;
+    top: 65px;
+    right: 21px;
 
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 40px;
 
-    border: none;
-    border-radius: 50%;
+    border: 2px solid var(--border);
+    border-radius: 30%;
 
-    font-size: 24px;
+    font-size: 18px;
 
     cursor: pointer;
 
-    background: #202020;
-    color: white;
+    background: var(--box-bg);
+    color: var(--text);
 
     z-index: 999;
 }
@@ -258,7 +258,7 @@ input[type="file"] {
 
     height: 80vh;
 
-    background: white;
+    background: var(--box-bg);
 
     border-radius: 16px;
 
@@ -270,6 +270,7 @@ input[type="file"] {
     overflow: hidden;
 
     z-index: 1000;
+    color: --text
 }
 
 
@@ -408,7 +409,7 @@ input[type="file"] {
 
 .dictionary-table tbody tr:hover {
 
-    background: #fafafa;
+    background: var(--hover);
 }
 
 
