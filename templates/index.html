@@ -59,6 +59,112 @@
     </div>
 </div>
 
+<!-- ========================= -->
+<!-- SETTINGS COG BUTTON -->
+<!-- ========================= -->
+
+<button id="dictSettingsBtn" class="dict-settings-btn">
+    ⚙
+</button>
+
+
+<!-- ========================= -->
+<!-- DICTIONARY POPUP -->
+<!-- ========================= -->
+
+<div id="dictionaryPopup" class="dictionary-popup hidden">
+
+    <!-- HEADER -->
+    <div class="dictionary-header">
+
+        <h2>Custom Dictionary</h2>
+
+        <button id="closeDictionaryPopup" class="close-btn">
+            ✕
+        </button>
+
+    </div>
+
+
+    <!-- TOOLBAR -->
+    <div class="dictionary-toolbar">
+
+        <input
+            type="text"
+            id="dictionarySearch"
+            placeholder="Search words..."
+        >
+
+        <button id="addWordBtn">
+            + Add Word
+        </button>
+
+    </div>
+
+
+    <!-- TABLE -->
+    <div class="dictionary-table-wrapper">
+
+        <table class="dictionary-table">
+
+            <thead>
+
+                <tr>
+                    <th>Original Word</th>
+                    <th>Translation</th>
+                    <th>Type</th>
+                    <th>Actions</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="dictionaryTableBody">
+
+                <!-- SAMPLE ROW -->
+                <tr>
+
+                    <td>plaintiff</td>
+
+                    <td>ഹർജിക്കാരൻ</td>
+
+                    <td>
+                        <span class="tag user-tag">
+                            User
+                        </span>
+                    </td>
+
+                    <td>
+
+                        <button class="edit-btn">
+                            Edit
+                        </button>
+
+                        <button class="delete-btn">
+                            Delete
+                        </button>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="dictionary-footer">
+
+        <span id="dictionaryCount">
+            1 entries
+        </span>
+
+    </div>
+
+</div>
+
 <script>
     // Initialize elements for UI control
     const fileInput = document.getElementById("fileInput");
@@ -189,6 +295,42 @@
 
     refreshbtn.addEventListener("click", () => {
         location.reload();
+    });
+
+    const settingsBtn =
+    document.getElementById("dictSettingsBtn");
+
+    const popup =
+        document.getElementById("dictionaryPopup");
+
+    const closeBtn =
+        document.getElementById("closeDictionaryPopup");
+
+
+    // OPEN POPUP
+
+    settingsBtn.addEventListener("click", () => {
+
+        popup.classList.remove("hidden");
+    });
+
+
+    // CLOSE POPUP
+
+    closeBtn.addEventListener("click", () => {
+
+        popup.classList.add("hidden");
+    });
+
+
+    // CLOSE ON OUTSIDE CLICK
+
+    window.addEventListener("click", (event) => {
+
+        if (event.target === popup) {
+
+            popup.classList.add("hidden");
+        }
     });
     
 </script>
