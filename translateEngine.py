@@ -50,8 +50,13 @@ def unload_translation_model():
     torch.cuda.empty_cache()
 
 # Load legal dictionary
-with open("legal_terms.json", "r", encoding="utf-8") as f:
+import json
+import re
+
+# Load dictionary
+with open("base_dictionary.json", "r", encoding="utf-8") as f:
     LEGAL_TERMS = json.load(f)
+
 
 def protect_case_numbers(text):
 
@@ -86,9 +91,26 @@ def protect_legal_terms(text):
 
     replacements = {}
 
-    for i, (eng, mal) in enumerate(LEGAL_TERMS.items()):
+    # Sort by length DESC so longer phrases match first
+    sorted_terms = sorted(
+        LEGAL_TERMS.items(),
+        key=lambda x: len(x[0]),
+        reverse=True
+    )
 
-        # Strong placeholder token
+    for i, (eng, data) in enumerate(sorted_terms):
+
+        # Current format:
+        # "occupancy certificate": {
+        #     "translation": "...",
+        #     "type": "Base"
+        # }
+
+        mal = data.get("translation", "")
+
+        if not mal:
+            continue
+
         token = f"ZXQ{i}KPX"
 
         pattern = re.compile(rf"\b{re.escape(eng)}\b", re.IGNORECASE)
@@ -113,7 +135,7 @@ def restore_legal_terms(text, replacements):
     # Restore placeholders
     for token, mal in replacements.items():
 
-        # Handle token variations with spaces
+        # Handle OCR/translation splitting token letters
         spaced_token = " ".join(list(token))
 
         text = text.replace(token, mal)
@@ -123,7 +145,6 @@ def restore_legal_terms(text, replacements):
     text = re.sub(r'\s+', ' ', text).strip()
 
     return text
-
 # ---------------------------- # LANGUAGE CODE MAP # ---------------------------- 
 LANG_MAP = { "english": "eng_Latn", "malayalam": "mal_Mlym", "hindi": "hin_Deva", "tamil": "tam_Taml" } 
 

@@ -1,0 +1,3526 @@
+{
+    "J U D G E M E N T": {
+        "translation": "ന്യായവിധി",
+        "type": "Base"
+    },
+    "petitioner": {
+        "translation": "ഹർജിക്കാരൻ",
+        "type": "Base"
+    },
+    "respondent": {
+        "translation": "എതിർകക്ഷി",
+        "type": "Base"
+    },
+    "affidavit": {
+        "translation": "സത്യവാങ്മൂലം",
+        "type": "Base"
+    },
+    "jurisdiction": {
+        "translation": "അധികാരപരിധി",
+        "type": "Base"
+    },
+    "decree": {
+        "translation": "ഡിക്രി",
+        "type": "Base"
+    },
+    "injunction": {
+        "translation": "നിയന്ത്രണ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "magistrate": {
+        "translation": "മജിസ്ട്രേറ്റ്",
+        "type": "Base"
+    },
+    "plaintiff": {
+        "translation": "വാദി",
+        "type": "Base"
+    },
+    "defendant": {
+        "translation": "പ്രതിവാദി",
+        "type": "Base"
+    },
+    "bail": {
+        "translation": "ജാമ്യം",
+        "type": "Base"
+    },
+    "appeal": {
+        "translation": "അപ്പീൽ",
+        "type": "Base"
+    },
+    "judgment": {
+        "translation": "വിധി",
+        "type": "Base"
+    },
+    "order": {
+        "translation": "ഉത്തരവ്",
+        "type": "Base"
+    },
+    "warrant": {
+        "translation": "വാറണ്ട്",
+        "type": "Base"
+    },
+    "summons": {
+        "translation": "സമൻസ്",
+        "type": "Base"
+    },
+    "evidence": {
+        "translation": "തെളിവ്",
+        "type": "Base"
+    },
+    "witness": {
+        "translation": "സാക്ഷി",
+        "type": "Base"
+    },
+    "testimony": {
+        "translation": "സാക്ഷിമൊഴി",
+        "type": "Base"
+    },
+    "cross examination": {
+        "translation": "പ്രതിചോദ്യം",
+        "type": "Base"
+    },
+    "chief examination": {
+        "translation": "പ്രധാന ചോദ്യം ചെയ്യൽ",
+        "type": "Base"
+    },
+    "revisional jurisdiction": {
+        "translation": "റിവിഷണൽ അധികാരപരിധി",
+        "type": "Base"
+    },
+    "constitutional validity": {
+        "translation": "ഭരണഘടനാ സാധുത",
+        "type": "Base"
+    },
+    "stay order": {
+        "translation": "സ്റ്റേ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "interim order": {
+        "translation": "ഇടക്കാല ഉത്തരവ്",
+        "type": "Base"
+    },
+    "final order": {
+        "translation": "അന്തിമ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "high court": {
+        "translation": "ഹൈക്കോടതി",
+        "type": "Base"
+    },
+    "supreme court": {
+        "translation": "സുപ്രീം കോടതി",
+        "type": "Base"
+    },
+    "district court": {
+        "translation": "ജില്ലാ കോടതി",
+        "type": "Base"
+    },
+    "sessions court": {
+        "translation": "സെഷൻസ് കോടതി",
+        "type": "Base"
+    },
+    "tribunal": {
+        "translation": "ട്രൈബ്യൂണൽ",
+        "type": "Base"
+    },
+    "bench": {
+        "translation": "ബെഞ്ച്",
+        "type": "Base"
+    },
+    "single bench": {
+        "translation": "സിംഗിൾ ബെഞ്ച്",
+        "type": "Base"
+    },
+    "division bench": {
+        "translation": "ഡിവിഷൻ ബെഞ്ച്",
+        "type": "Base"
+    },
+    "full bench": {
+        "translation": "ഫുൾ ബെഞ്ച്",
+        "type": "Base"
+    },
+    "justice": {
+        "translation": "ജസ്റ്റിസ്",
+        "type": "Base"
+    },
+    "judge": {
+        "translation": "ന്യായാധിപൻ",
+        "type": "Base"
+    },
+    "chief justice": {
+        "translation": "മുഖ്യന്യായാധിപൻ",
+        "type": "Base"
+    },
+    "advocate": {
+        "translation": "അഭിഭാഷകൻ",
+        "type": "Base"
+    },
+    "senior advocate": {
+        "translation": "സീനിയർ അഭിഭാഷകൻ",
+        "type": "Base"
+    },
+    "public prosecutor": {
+        "translation": "പബ്ലിക് പ്രോസിക്യൂട്ടർ",
+        "type": "Base"
+    },
+    "government pleader": {
+        "translation": "സർക്കാർ പ്ലീഡർ",
+        "type": "Base"
+    },
+    "counsel": {
+        "translation": "നിയമോപദേഷ്ടാവ്",
+        "type": "Base"
+    },
+    "litigation": {
+        "translation": "വാദപ്രതിവാദ നടപടി",
+        "type": "Base"
+    },
+    "prosecution": {
+        "translation": "പ്രോസിക്യൂഷൻ",
+        "type": "Base"
+    },
+    "defence": {
+        "translation": "പ്രതിരോധം",
+        "type": "Base"
+    },
+    "conviction": {
+        "translation": "ശിക്ഷാവിധി",
+        "type": "Base"
+    },
+    "acquittal": {
+        "translation": "വിമോചനം",
+        "type": "Base"
+    },
+    "sentence": {
+        "translation": "ശിക്ഷ",
+        "type": "Base"
+    },
+    "imprisonment": {
+        "translation": "തടവ്",
+        "type": "Base"
+    },
+    "life imprisonment": {
+        "translation": "ആജീവനാന്ത തടവ്",
+        "type": "Base"
+    },
+    "fine": {
+        "translation": "പിഴ",
+        "type": "Base"
+    },
+    "penalty": {
+        "translation": "ശിക്ഷാനടപടി",
+        "type": "Base"
+    },
+    "compensation": {
+        "translation": "പരിഹാരം",
+        "type": "Base"
+    },
+    "damages": {
+        "translation": "നഷ്ടപരിഹാരം",
+        "type": "Base"
+    },
+    "tort": {
+        "translation": "ടോർട്ട്",
+        "type": "Base"
+    },
+    "negligence": {
+        "translation": "അശ്രദ്ധ",
+        "type": "Base"
+    },
+    "breach": {
+        "translation": "ലംഘനം",
+        "type": "Base"
+    },
+    "breach of contract": {
+        "translation": "കരാർ ലംഘനം",
+        "type": "Base"
+    },
+    "contract": {
+        "translation": "കരാർ",
+        "type": "Base"
+    },
+    "agreement": {
+        "translation": "ഉടമ്പടി",
+        "type": "Base"
+    },
+    "memorandum": {
+        "translation": "മെമ്മോറാണ്ടം",
+        "type": "Base"
+    },
+    "undertaking": {
+        "translation": "ഉറപ്പ് പ്രസ്താവന",
+        "type": "Base"
+    },
+    "bond": {
+        "translation": "ബോണ്ട്",
+        "type": "Base"
+    },
+    "surety": {
+        "translation": "ജാമ്യക്കാരൻ",
+        "type": "Base"
+    },
+    "guarantor": {
+        "translation": "ഉറപ്പുകാരൻ",
+        "type": "Base"
+    },
+    "liability": {
+        "translation": "ബാധ്യത",
+        "type": "Base"
+    },
+    "civil liability": {
+        "translation": "സിവിൽ ബാധ്യത",
+        "type": "Base"
+    },
+    "criminal liability": {
+        "translation": "ക്രിമിനൽ ബാധ്യത",
+        "type": "Base"
+    },
+    "offence": {
+        "translation": "കുറ്റകൃത്യം",
+        "type": "Base"
+    },
+    "cognizable offence": {
+        "translation": "കോഗ്നിസബിൾ കുറ്റം",
+        "type": "Base"
+    },
+    "non cognizable offence": {
+        "translation": "നോൺ കോഗ്നിസബിൾ കുറ്റം",
+        "type": "Base"
+    },
+    "felony": {
+        "translation": "ഗുരുതര കുറ്റം",
+        "type": "Base"
+    },
+    "misdemeanor": {
+        "translation": "ലഘുകുറ്റം",
+        "type": "Base"
+    },
+    "investigation": {
+        "translation": "അന്വേഷണം",
+        "type": "Base"
+    },
+    "inquiry": {
+        "translation": "പരിശോധന",
+        "type": "Base"
+    },
+    "trial": {
+        "translation": "വിചാരണ",
+        "type": "Base"
+    },
+    "hearing": {
+        "translation": "വാദം കേൾക്കൽ",
+        "type": "Base"
+    },
+    "admission": {
+        "translation": "സ്വീകരണം",
+        "type": "Base"
+    },
+    "confession": {
+        "translation": "കുറ്റസമ്മതം",
+        "type": "Base"
+    },
+    "remand": {
+        "translation": "റിമാൻഡ്",
+        "type": "Base"
+    },
+    "custody": {
+        "translation": "കസ്റ്റഡി",
+        "type": "Base"
+    },
+    "police custody": {
+        "translation": "പോലീസ് കസ്റ്റഡി",
+        "type": "Base"
+    },
+    "judicial custody": {
+        "translation": "ന്യായാധികാര കസ്റ്റഡി",
+        "type": "Base"
+    },
+    "detention": {
+        "translation": "തടങ്കൽ",
+        "type": "Base"
+    },
+    "arrest": {
+        "translation": "അറസ്റ്റ്",
+        "type": "Base"
+    },
+    "illegal detention": {
+        "translation": "നിയമവിരുദ്ധ തടങ്കൽ",
+        "type": "Base"
+    },
+    "charge": {
+        "translation": "കുറ്റാരോപണം",
+        "type": "Base"
+    },
+    "charge sheet": {
+        "translation": "കുറ്റപത്രം",
+        "type": "Base"
+    },
+    "first information report": {
+        "translation": "പ്രഥമ വിവര റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "fir": {
+        "translation": "എഫ്‌.ഐ.ആർ",
+        "type": "Base"
+    },
+    "complaint": {
+        "translation": "പരാതി",
+        "type": "Base"
+    },
+    "private complaint": {
+        "translation": "സ്വകാര്യ പരാതി",
+        "type": "Base"
+    },
+    "petition": {
+        "translation": "ഹർജി",
+        "type": "Base"
+    },
+    "revision petition": {
+        "translation": "റിവിഷൻ ഹർജി",
+        "type": "Base"
+    },
+    "review petition": {
+        "translation": "പുനഃപരിശോധന ഹർജി",
+        "type": "Base"
+    },
+    "writ petition": {
+        "translation": "റിറ്റ് ഹർജി",
+        "type": "Base"
+    },
+    "special leave petition": {
+        "translation": "സ്പെഷ്യൽ ലീവ് ഹർജി",
+        "type": "Base"
+    },
+    "counter affidavit": {
+        "translation": "പ്രതിസത്യവാങ്മൂലം",
+        "type": "Base"
+    },
+    "rejoinder": {
+        "translation": "മറുപടി സത്യവാങ്മൂലം",
+        "type": "Base"
+    },
+    "annexure": {
+        "translation": "അനുബന്ധം",
+        "type": "Base"
+    },
+    "exhibit": {
+        "translation": "എക്സിബിറ്റ്",
+        "type": "Base"
+    },
+    "material object": {
+        "translation": "ഭൗതിക തെളിവ്",
+        "type": "Base"
+    },
+    "documentary evidence": {
+        "translation": "രേഖാമൂലമുള്ള തെളിവ്",
+        "type": "Base"
+    },
+    "oral evidence": {
+        "translation": "വായ്മൊഴി തെളിവ്",
+        "type": "Base"
+    },
+    "circumstantial evidence": {
+        "translation": "സാഹചര്യ തെളിവ്",
+        "type": "Base"
+    },
+    "burden of proof": {
+        "translation": "തെളിവ് ചുമതല",
+        "type": "Base"
+    },
+    "proof beyond reasonable doubt": {
+        "translation": "യുക്തിസഹമായ സംശയത്തിന് അതീതമായ തെളിവ്",
+        "type": "Base"
+    },
+    "prima facie": {
+        "translation": "പ്രാഥമികമായി",
+        "type": "Base"
+    },
+    "bona fide": {
+        "translation": "സത്യസന്ധമായ",
+        "type": "Base"
+    },
+    "mala fide": {
+        "translation": "ദുരുദ്ദേശപരമായ",
+        "type": "Base"
+    },
+    "status quo": {
+        "translation": "നിലവിലെ സ്ഥിതി",
+        "type": "Base"
+    },
+    "habeas corpus": {
+        "translation": "ഹേബിയസ് കോർപ്പസ്",
+        "type": "Base"
+    },
+    "mandamus": {
+        "translation": "മാൻഡമസ്",
+        "type": "Base"
+    },
+    "certiorari": {
+        "translation": "സെർട്ടിയോറാരി",
+        "type": "Base"
+    },
+    "quo warranto": {
+        "translation": "ക്വോ വാറന്റോ",
+        "type": "Base"
+    },
+    "prohibition": {
+        "translation": "നിരോധന റിറ്റ്",
+        "type": "Base"
+    },
+    "fundamental rights": {
+        "translation": "അടിസ്ഥാന അവകാശങ്ങൾ",
+        "type": "Base"
+    },
+    "constitutional remedy": {
+        "translation": "ഭരണഘടനാപരമായ പരിഹാരം",
+        "type": "Base"
+    },
+    "natural justice": {
+        "translation": "സ്വാഭാവിക നീതി",
+        "type": "Base"
+    },
+    "equity": {
+        "translation": "നീതിസമത്വം",
+        "type": "Base"
+    },
+    "equitable relief": {
+        "translation": "നീതിപരമായ പരിഹാരം",
+        "type": "Base"
+    },
+    "injured party": {
+        "translation": "നഷ്ടം സംഭവിച്ച കക്ഷി",
+        "type": "Base"
+    },
+    "aggrieved person": {
+        "translation": "ബാധിത വ്യക്തി",
+        "type": "Base"
+    },
+    "minor": {
+        "translation": "അപ്രായപൂർത്തിയാകാത്ത വ്യക്തി",
+        "type": "Base"
+    },
+    "guardian": {
+        "translation": "രക്ഷാധികാരി",
+        "type": "Base"
+    },
+    "legal heir": {
+        "translation": "നിയമാവകാശി",
+        "type": "Base"
+    },
+    "succession": {
+        "translation": "അനന്തരാവകാശം",
+        "type": "Base"
+    },
+    "probate": {
+        "translation": "വിൽ സാധൂകരണ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "will": {
+        "translation": "വസിയത്ത്",
+        "type": "Base"
+    },
+    "executor": {
+        "translation": "വിൽ നടപ്പാക്കുന്ന വ്യക്തി",
+        "type": "Base"
+    },
+    "administrator": {
+        "translation": "ഭരണനിർവാഹകൻ",
+        "type": "Base"
+    },
+    "partition": {
+        "translation": "ഭാഗപിരിവ്",
+        "type": "Base"
+    },
+    "partition deed": {
+        "translation": "ഭാഗപത്രം",
+        "type": "Base"
+    },
+    "sale deed": {
+        "translation": "വില്പന പത്രം",
+        "type": "Base"
+    },
+    "gift deed": {
+        "translation": "സമ്മാനപത്രം",
+        "type": "Base"
+    },
+    "lease deed": {
+        "translation": "കുത്തക പത്രം",
+        "type": "Base"
+    },
+    "mortgage": {
+        "translation": "പണയം",
+        "type": "Base"
+    },
+    "encumbrance": {
+        "translation": "ബാധ്യത",
+        "type": "Base"
+    },
+    "title deed": {
+        "translation": "ഉടമസ്ഥാവകാശ പത്രം",
+        "type": "Base"
+    },
+    "possession": {
+        "translation": "കൈവശം",
+        "type": "Base"
+    },
+    "ownership": {
+        "translation": "ഉടമസ്ഥാവകാശം",
+        "type": "Base"
+    },
+    "tenant": {
+        "translation": "കുടിയാൻ",
+        "type": "Base"
+    },
+    "landlord": {
+        "translation": "ഭൂവുടമ",
+        "type": "Base"
+    },
+    "eviction": {
+        "translation": "ഒഴിപ്പിക്കൽ",
+        "type": "Base"
+    },
+    "trespass": {
+        "translation": "അനധികൃത പ്രവേശനം",
+        "type": "Base"
+    },
+    "encroachment": {
+        "translation": "കയ്യേറ്റം",
+        "type": "Base"
+    },
+    "recovery": {
+        "translation": "വീണ്ടെടുപ്പ്",
+        "type": "Base"
+    },
+    "execution petition": {
+        "translation": "നടപ്പാക്കൽ ഹർജി",
+        "type": "Base"
+    },
+    "compliance": {
+        "translation": "പാലനം",
+        "type": "Base"
+    },
+    "non compliance": {
+        "translation": "അനുസരണക്കേട്",
+        "type": "Base"
+    },
+    "contempt of court": {
+        "translation": "കോടതി അവഹേളനം",
+        "type": "Base"
+    },
+    "perjury": {
+        "translation": "കള്ളസാക്ഷ്യം",
+        "type": "Base"
+    },
+    "forgery": {
+        "translation": "കൃത്രിമം",
+        "type": "Base"
+    },
+    "fraud": {
+        "translation": "വഞ്ചന",
+        "type": "Base"
+    },
+    "cheating": {
+        "translation": "തട്ടിപ്പ്",
+        "type": "Base"
+    },
+    "misappropriation": {
+        "translation": "ദുരുപയോഗം",
+        "type": "Base"
+    },
+    "criminal breach of trust": {
+        "translation": "വിശ്വാസവഞ്ചന",
+        "type": "Base"
+    },
+    "money laundering": {
+        "translation": "കള്ളപ്പണം വെളുപ്പിക്കൽ",
+        "type": "Base"
+    },
+    "corruption": {
+        "translation": "അഴിമതി",
+        "type": "Base"
+    },
+    "bribery": {
+        "translation": "ലഞ്ചം",
+        "type": "Base"
+    },
+    "kidnapping": {
+        "translation": "അപഹരണം",
+        "type": "Base"
+    },
+    "abduction": {
+        "translation": "ബലമായി കൊണ്ടുപോകൽ",
+        "type": "Base"
+    },
+    "assault": {
+        "translation": "ആക്രമണം",
+        "type": "Base"
+    },
+    "battery": {
+        "translation": "ശാരീരിക അതിക്രമം",
+        "type": "Base"
+    },
+    "hurt": {
+        "translation": "പരിക്ക്",
+        "type": "Base"
+    },
+    "grievous hurt": {
+        "translation": "ഗുരുതര പരിക്ക്",
+        "type": "Base"
+    },
+    "murder": {
+        "translation": "കൊലപാതകം",
+        "type": "Base"
+    },
+    "culpable homicide": {
+        "translation": "മാനുഷികഹത്യ",
+        "type": "Base"
+    },
+    "attempt to murder": {
+        "translation": "കൊലപാതകശ്രമം",
+        "type": "Base"
+    },
+    "suicide": {
+        "translation": "ആത്മഹത്യ",
+        "type": "Base"
+    },
+    "abetment": {
+        "translation": "പ്രേരണ",
+        "type": "Base"
+    },
+    "conspiracy": {
+        "translation": "ഗൂഢാലോചന",
+        "type": "Base"
+    },
+    "abetment of suicide": {
+        "translation": "ആത്മഹത്യ പ്രേരണ",
+        "type": "Base"
+    },
+    "rape": {
+        "translation": "ബലാത്സംഗം",
+        "type": "Base"
+    },
+    "sexual harassment": {
+        "translation": "ലൈംഗിക പീഡനം",
+        "type": "Base"
+    },
+    "dowry": {
+        "translation": "സ്ത്രീധനം",
+        "type": "Base"
+    },
+    "domestic violence": {
+        "translation": "ഗാർഹിക പീഡനം",
+        "type": "Base"
+    },
+    "juvenile": {
+        "translation": "കുട്ടിക്കുറ്റവാളി",
+        "type": "Base"
+    },
+    "child custody": {
+        "translation": "കുട്ടിയുടെ സംരക്ഷണാവകാശം",
+        "type": "Base"
+    },
+    "maintenance": {
+        "translation": "പരിപാലനച്ചെലവ്",
+        "type": "Base"
+    },
+    "alimony": {
+        "translation": "ജീവനാംശം",
+        "type": "Base"
+    },
+    "divorce": {
+        "translation": "വിവാഹമോചനം",
+        "type": "Base"
+    },
+    "restitution of conjugal rights": {
+        "translation": "ദാമ്പത്യാവകാശ പുനഃസ്ഥാപനം",
+        "type": "Base"
+    },
+    "adoption": {
+        "translation": "ദത്തെടുക്കൽ",
+        "type": "Base"
+    },
+    "marriage certificate": {
+        "translation": "വിവാഹ സർട്ടിഫിക്കറ്റ്",
+        "type": "Base"
+    },
+    "birth certificate": {
+        "translation": "ജനന സർട്ടിഫിക്കറ്റ്",
+        "type": "Base"
+    },
+    "death certificate": {
+        "translation": "മരണ സർട്ടിഫിക്കറ്റ്",
+        "type": "Base"
+    },
+    "registration": {
+        "translation": "രജിസ്ട്രേഷൻ",
+        "type": "Base"
+    },
+    "licence": {
+        "translation": "ലൈസൻസ്",
+        "type": "Base"
+    },
+    "permit": {
+        "translation": "അനുമതി പത്രം",
+        "type": "Base"
+    },
+    "sanction": {
+        "translation": "അനുമതി",
+        "type": "Base"
+    },
+    "notification": {
+        "translation": "അറിയിപ്പ്",
+        "type": "Base"
+    },
+    "gazette": {
+        "translation": "ഗസറ്റ്",
+        "type": "Base"
+    },
+    "statute": {
+        "translation": "നിയമം",
+        "type": "Base"
+    },
+    "act": {
+        "translation": "അധിനിയമം",
+        "type": "Base"
+    },
+    "rule": {
+        "translation": "ചട്ടം",
+        "type": "Base"
+    },
+    "regulation": {
+        "translation": "നിയന്ത്രണം",
+        "type": "Base"
+    },
+    "ordinance": {
+        "translation": "ഓർഡിനൻസ്",
+        "type": "Base"
+    },
+    "bylaw": {
+        "translation": "ഉപചട്ടം",
+        "type": "Base"
+    },
+    "amendment": {
+        "translation": "ഭേദഗതി",
+        "type": "Base"
+    },
+    "repeal": {
+        "translation": "റദ്ദാക്കൽ",
+        "type": "Base"
+    },
+    "provision": {
+        "translation": "വ്യവസ്ഥ",
+        "type": "Base"
+    },
+    "clause": {
+        "translation": "വകുപ്പ്",
+        "type": "Base"
+    },
+    "sub clause": {
+        "translation": "ഉപവകുപ്പ്",
+        "type": "Base"
+    },
+    "section": {
+        "translation": "വിഭാഗം",
+        "type": "Base"
+    },
+    "article": {
+        "translation": "അനുച്ഛേദം",
+        "type": "Base"
+    },
+    "schedule": {
+        "translation": "പട്ടിക",
+        "type": "Base"
+    },
+    "precedent": {
+        "translation": "മുൻവിധി",
+        "type": "Base"
+    },
+    "ratio decidendi": {
+        "translation": "വിധിയുടെ അടിസ്ഥാനതത്വം",
+        "type": "Base"
+    },
+    "obiter dicta": {
+        "translation": "അനുബന്ധ നിരീക്ഷണം",
+        "type": "Base"
+    },
+    "citation": {
+        "translation": "ഉദ്ധരണം",
+        "type": "Base"
+    },
+    "reference": {
+        "translation": "റഫറൻസ്",
+        "type": "Base"
+    },
+    "interpretation": {
+        "translation": "വ്യാഖ്യാനം",
+        "type": "Base"
+    },
+    "construction": {
+        "translation": "നിയമ വ്യാഖ്യാനരീതി",
+        "type": "Base"
+    },
+    "legal fiction": {
+        "translation": "നിയമസങ്കൽപ്പം",
+        "type": "Base"
+    },
+    "void": {
+        "translation": "അസാധു",
+        "type": "Base"
+    },
+    "voidable": {
+        "translation": "റദ്ദാക്കാവുന്ന",
+        "type": "Base"
+    },
+    "ultra vires": {
+        "translation": "അധികാരപരിധിക്ക് അതീതമായ",
+        "type": "Base"
+    },
+    "intra vires": {
+        "translation": "അധികാരപരിധിക്കുള്ളിലുള്ള",
+        "type": "Base"
+    },
+    "res judicata": {
+        "translation": "മുൻവിധി ബാധകത",
+        "type": "Base"
+    },
+    "estoppel": {
+        "translation": "നിഷേധാവകാശ വിലക്ക്",
+        "type": "Base"
+    },
+    "locus standi": {
+        "translation": "ഹർജി സമർപ്പണ അവകാശം",
+        "type": "Base"
+    },
+    "cause of action": {
+        "translation": "നടപടിക്കാരണം",
+        "type": "Base"
+    },
+    "limitation": {
+        "translation": "കാലപരിധി",
+        "type": "Base"
+    },
+    "delay condonation": {
+        "translation": "കാലതാമസ മാപ്പ്",
+        "type": "Base"
+    },
+    "adjournment": {
+        "translation": "മാറ്റിവെക്കൽ",
+        "type": "Base"
+    },
+    "adjourned": {
+        "translation": "മാറ്റിവെച്ച",
+        "type": "Base"
+    },
+    "disposed": {
+        "translation": "തീർപ്പാക്കിയ",
+        "type": "Base"
+    },
+    "dismissed": {
+        "translation": "തള്ളിക്കളഞ്ഞ",
+        "type": "Base"
+    },
+    "allowed": {
+        "translation": "അനുവദിച്ച",
+        "type": "Base"
+    },
+    "partly allowed": {
+        "translation": "ഭാഗികമായി അനുവദിച്ച",
+        "type": "Base"
+    },
+    "disposed of": {
+        "translation": "പരിഹരിച്ച",
+        "type": "Base"
+    },
+    "reserved for orders": {
+        "translation": "ഉത്തരവിനായി മാറ്റിവെച്ച",
+        "type": "Base"
+    },
+    "pronounced": {
+        "translation": "പ്രഖ്യാപിച്ചു",
+        "type": "Base"
+    },
+    "registry": {
+        "translation": "റജിസ്ട്രി",
+        "type": "Base"
+    },
+    "filing section": {
+        "translation": "ഫയലിംഗ് വിഭാഗം",
+        "type": "Base"
+    },
+    "court fee": {
+        "translation": "കോടതി ഫീസ്",
+        "type": "Base"
+    },
+    "stamp duty": {
+        "translation": "സ്റ്റാമ്പ് തീരുവ",
+        "type": "Base"
+    },
+    "valuation": {
+        "translation": "മൂല്യനിർണ്ണയം",
+        "type": "Base"
+    },
+    "court hall": {
+        "translation": "കോടതി ഹാൾ",
+        "type": "Base"
+    },
+    "roster": {
+        "translation": "റോസ്റ്റർ",
+        "type": "Base"
+    },
+    "listing": {
+        "translation": "ലിസ്റ്റിംഗ്",
+        "type": "Base"
+    },
+    "mentioning": {
+        "translation": "മെൻഷനിംഗ്",
+        "type": "Base"
+    },
+    "urgent hearing": {
+        "translation": "അടിയന്തര ശ്രവണം",
+        "type": "Base"
+    },
+    "notice": {
+        "translation": "നോട്ടീസ്",
+        "type": "Base"
+    },
+    "legal notice": {
+        "translation": "നിയമ നോട്ടീസ്",
+        "type": "Base"
+    },
+    "service of notice": {
+        "translation": "നോട്ടീസ് കൈമാറ്റം",
+        "type": "Base"
+    },
+    "acknowledgment": {
+        "translation": "സ്വീകരണ രേഖ",
+        "type": "Base"
+    },
+    "postal acknowledgment": {
+        "translation": "തപാൽ സ്വീകരണ രേഖ",
+        "type": "Base"
+    },
+    "registered post": {
+        "translation": "രജിസ്റ്റർഡ് പോസ്റ്റ്",
+        "type": "Base"
+    },
+    "speed post": {
+        "translation": "സ്പീഡ് പോസ്റ്റ്",
+        "type": "Base"
+    },
+    "electronic evidence": {
+        "translation": "ഇലക്ട്രോണിക് തെളിവ്",
+        "type": "Base"
+    },
+    "digital signature": {
+        "translation": "ഡിജിറ്റൽ ഒപ്പ്",
+        "type": "Base"
+    },
+    "cyber crime": {
+        "translation": "സൈബർ കുറ്റകൃത്യം",
+        "type": "Base"
+    },
+    "information technology act": {
+        "translation": "വിവര സാങ്കേതിക നിയമം",
+        "type": "Base"
+    },
+    "data protection": {
+        "translation": "ഡാറ്റ സംരക്ഷണം",
+        "type": "Base"
+    },
+    "privacy": {
+        "translation": "സ്വകാര്യത",
+        "type": "Base"
+    },
+    "surveillance": {
+        "translation": "നിരീക്ഷണം",
+        "type": "Base"
+    },
+    "fundamental duty": {
+        "translation": "അടിസ്ഥാന കടമ",
+        "type": "Base"
+    },
+    "directive principles": {
+        "translation": "നയ നിർദ്ദേശ തത്വങ്ങൾ",
+        "type": "Base"
+    },
+    "state": {
+        "translation": "സംസ്ഥാനം",
+        "type": "Base"
+    },
+    "central government": {
+        "translation": "കേന്ദ്ര സർക്കാർ",
+        "type": "Base"
+    },
+    "state government": {
+        "translation": "സംസ്ഥാന സർക്കാർ",
+        "type": "Base"
+    },
+    "local authority": {
+        "translation": "പ്രാദേശിക അധികാരം",
+        "type": "Base"
+    },
+    "municipality": {
+        "translation": "മുനിസിപ്പാലിറ്റി",
+        "type": "Base"
+    },
+    "corporation": {
+        "translation": "കോർപ്പറേഷൻ",
+        "type": "Base"
+    },
+    "panchayat": {
+        "translation": "പഞ്ചായത്ത്",
+        "type": "Base"
+    },
+    "public interest litigation": {
+        "translation": "ജനഹിത ഹർജി",
+        "type": "Base"
+    },
+    "pil": {
+        "translation": "പൊതുതാൽപര്യ ഹർജി",
+        "type": "Base"
+    },
+    "human rights": {
+        "translation": "മനുഷ്യാവകാശങ്ങൾ",
+        "type": "Base"
+    },
+    "fundamental freedom": {
+        "translation": "അടിസ്ഥാന സ്വാതന്ത്ര്യം",
+        "type": "Base"
+    },
+    "minority rights": {
+        "translation": "ന്യൂനപക്ഷ അവകാശങ്ങൾ",
+        "type": "Base"
+    },
+    "reservation": {
+        "translation": "സംവരണം",
+        "type": "Base"
+    },
+    "backward class": {
+        "translation": "പിന്നാക്ക വിഭാഗം",
+        "type": "Base"
+    },
+    "scheduled caste": {
+        "translation": "പട്ടികജാതി",
+        "type": "Base"
+    },
+    "scheduled tribe": {
+        "translation": "പട്ടികവർഗം",
+        "type": "Base"
+    },
+    "tribunal award": {
+        "translation": "ട്രിബ്യൂണൽ അവാർഡ്",
+        "type": "Base"
+    },
+    "labour court": {
+        "translation": "തൊഴിൽ കോടതി",
+        "type": "Base"
+    },
+    "industrial dispute": {
+        "translation": "വ്യവസായ തർക്കം",
+        "type": "Base"
+    },
+    "workman": {
+        "translation": "തൊഴിലാളി",
+        "type": "Base"
+    },
+    "employer": {
+        "translation": "തൊഴിൽദാതാവ്",
+        "type": "Base"
+    },
+    "termination": {
+        "translation": "പിരിച്ചുവിടൽ",
+        "type": "Base"
+    },
+    "suspension": {
+        "translation": "സസ്‌പെൻഷൻ",
+        "type": "Base"
+    },
+    "dismissal": {
+        "translation": "പിരിച്ചുവിടൽ",
+        "type": "Base"
+    },
+    "departmental inquiry": {
+        "translation": "വകുപ്പ് അന്വേഷണം",
+        "type": "Base"
+    },
+    "misconduct": {
+        "translation": "ദുര്‍വ്യവഹാരം",
+        "type": "Base"
+    },
+    "disciplinary proceedings": {
+        "translation": "ശാസന നടപടികൾ",
+        "type": "Base"
+    },
+    "service rules": {
+        "translation": "സേവന ചട്ടങ്ങൾ",
+        "type": "Base"
+    },
+    "promotion": {
+        "translation": "ഉന്നമനം",
+        "type": "Base"
+    },
+    "seniority": {
+        "translation": "സീനിയോറിറ്റി",
+        "type": "Base"
+    },
+    "retirement": {
+        "translation": "വിരമിക്കൽ",
+        "type": "Base"
+    },
+    "pension": {
+        "translation": "പെൻഷൻ",
+        "type": "Base"
+    },
+    "gratuity": {
+        "translation": "ഗ്രാറ്റ്യൂട്ടി",
+        "type": "Base"
+    },
+    "provident fund": {
+        "translation": "പ്രൊവിഡന്റ് ഫണ്ട്",
+        "type": "Base"
+    },
+    "tax": {
+        "translation": "നികുതി",
+        "type": "Base"
+    },
+    "income tax": {
+        "translation": "ആദായ നികുതി",
+        "type": "Base"
+    },
+    "goods and services tax": {
+        "translation": "വസ്തു സേവന നികുതി",
+        "type": "Base"
+    },
+    "assessment": {
+        "translation": "നികുതി നിർണ്ണയം",
+        "type": "Base"
+    },
+    "reassessment": {
+        "translation": "പുനർനിർണ്ണയം",
+        "type": "Base"
+    },
+    "exemption": {
+        "translation": "വിമുക്തി",
+        "type": "Base"
+    },
+    "refund": {
+        "translation": "തിരിച്ചടവ്",
+        "type": "Base"
+    },
+    "revenue": {
+        "translation": "വരുമാനം",
+        "type": "Base"
+    },
+    "customs": {
+        "translation": "കസ്റ്റംസ്",
+        "type": "Base"
+    },
+    "excise": {
+        "translation": "എക്സൈസ്",
+        "type": "Base"
+    },
+    "confiscation": {
+        "translation": "കണ്ടുകെട്ടൽ",
+        "type": "Base"
+    },
+    "search": {
+        "translation": "തിരച്ചിൽ",
+        "type": "Base"
+    },
+    "seizure": {
+        "translation": "കൈവശപ്പെടുത്തൽ",
+        "type": "Base"
+    },
+    "raid": {
+        "translation": "റെയ്ഡ്",
+        "type": "Base"
+    },
+    "search warrant": {
+        "translation": "പരിശോധന വാറണ്ട്",
+        "type": "Base"
+    },
+    "anticipatory bail": {
+        "translation": "മുൻകൂർ ജാമ്യം",
+        "type": "Base"
+    },
+    "default bail": {
+        "translation": "സ്ഥിരകാല ജാമ്യം",
+        "type": "Base"
+    },
+    "regular bail": {
+        "translation": "സാധാരണ ജാമ്യം",
+        "type": "Base"
+    },
+    "parole": {
+        "translation": "പരോൾ",
+        "type": "Base"
+    },
+    "probation": {
+        "translation": "നിരീക്ഷണ മോചനം",
+        "type": "Base"
+    },
+    "rehabilitation": {
+        "translation": "പുനരധിവാസം",
+        "type": "Base"
+    },
+    "victim": {
+        "translation": "ബാധിതൻ",
+        "type": "Base"
+    },
+    "victim compensation": {
+        "translation": "ബാധിത നഷ്ടപരിഹാരം",
+        "type": "Base"
+    },
+    "public servant": {
+        "translation": "പൊതു സേവകൻ",
+        "type": "Base"
+    },
+    "official duty": {
+        "translation": "ഔദ്യോഗിക ചുമതല",
+        "type": "Base"
+    },
+    "sanction for prosecution": {
+        "translation": "പ്രോസിക്യൂഷൻ അനുമതി",
+        "type": "Base"
+    },
+    "disqualification": {
+        "translation": "അയോഗ്യത",
+        "type": "Base"
+    },
+    "election petition": {
+        "translation": "തിരഞ്ഞെടുപ്പ് ഹർജി",
+        "type": "Base"
+    },
+    "electoral roll": {
+        "translation": "വോട്ടർ പട്ടിക",
+        "type": "Base"
+    },
+    "candidate": {
+        "translation": "സ്ഥാനാർത്ഥി",
+        "type": "Base"
+    },
+    "nomination": {
+        "translation": "നാമനിർദ്ദേശം",
+        "type": "Base"
+    },
+    "corrupt practice": {
+        "translation": "അഴിമതി പ്രവർത്തനം",
+        "type": "Base"
+    },
+    "illegal gratification": {
+        "translation": "നിയമവിരുദ്ധ പ്രതിഫലം",
+        "type": "Base"
+    },
+    "company": {
+        "translation": "കമ്പനി",
+        "type": "Base"
+    },
+    "shareholder": {
+        "translation": "ഓഹരിയുടമ",
+        "type": "Base"
+    },
+    "director": {
+        "translation": "ഡയറക്ടർ",
+        "type": "Base"
+    },
+    "board resolution": {
+        "translation": "ബോർഡ് പ്രമേയം",
+        "type": "Base"
+    },
+    "insolvency": {
+        "translation": "ദിവാലിത്തം",
+        "type": "Base"
+    },
+    "bankruptcy": {
+        "translation": "പാപ്പരത്തം",
+        "type": "Base"
+    },
+    "liquidation": {
+        "translation": "ലിക്വിഡേഷൻ",
+        "type": "Base"
+    },
+    "merger": {
+        "translation": "ലയനം",
+        "type": "Base"
+    },
+    "acquisition": {
+        "translation": "അധിഗ്രഹണം",
+        "type": "Base"
+    },
+    "arbitration": {
+        "translation": "മധ്യസ്ഥ പരിഹാരം",
+        "type": "Base"
+    },
+    "arbitrator": {
+        "translation": "മധ്യസ്ഥൻ",
+        "type": "Base"
+    },
+    "conciliation": {
+        "translation": "അനുരഞ്ജനം",
+        "type": "Base"
+    },
+    "mediation": {
+        "translation": "മധ്യസ്ഥത",
+        "type": "Base"
+    },
+    "settlement": {
+        "translation": "പരിഹാര ധാരണ",
+        "type": "Base"
+    },
+    "award": {
+        "translation": "അവാർഡ്",
+        "type": "Base"
+    },
+    "execution": {
+        "translation": "നടപ്പാക്കൽ",
+        "type": "Base"
+    },
+    "compliance report": {
+        "translation": "അനുസരണ റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "undertaking before court": {
+        "translation": "കോടതിയിലുള്ള ഉറപ്പുനൽകൽ",
+        "type": "Base"
+    },
+    "undertaking violation": {
+        "translation": "ഉറപ്പ് ലംഘനം",
+        "type": "Base"
+    },
+    "proceedings": {
+        "translation": "നടപടികൾ",
+        "type": "Base"
+    },
+    "record": {
+        "translation": "രേഖ",
+        "type": "Base"
+    },
+    "case diary": {
+        "translation": "കേസ് ഡയറി",
+        "type": "Base"
+    },
+    "daily order": {
+        "translation": "ദൈനംദിന ഉത്തരവ്",
+        "type": "Base"
+    },
+    "roznama": {
+        "translation": "റോസ്നാമ",
+        "type": "Base"
+    },
+    "index": {
+        "translation": "സൂചിക",
+        "type": "Base"
+    },
+    "paper book": {
+        "translation": "പേപ്പർ ബുക്ക്",
+        "type": "Base"
+    },
+    "typed set": {
+        "translation": "ടൈപ്പ് ചെയ്ത രേഖകൾ",
+        "type": "Base"
+    },
+    "certified copy": {
+        "translation": "സാക്ഷ്യപ്പെടുത്തിയ പകർപ്പ്",
+        "type": "Base"
+    },
+    "true copy": {
+        "translation": "യഥാർത്ഥ പകർപ്പ്",
+        "type": "Base"
+    },
+    "attestation": {
+        "translation": "സാക്ഷ്യപ്പെടുത്തൽ",
+        "type": "Base"
+    },
+    "verification": {
+        "translation": "സ്ഥിരീകരണം",
+        "type": "Base"
+    },
+    "notary": {
+        "translation": "നോട്ടറി",
+        "type": "Base"
+    },
+    "notarized": {
+        "translation": "നോട്ടറി സാക്ഷ്യപ്പെടുത്തിയ",
+        "type": "Base"
+    },
+    "oath": {
+        "translation": "സത്യപ്രതിജ്ഞ",
+        "type": "Base"
+    },
+    "solemn affirmation": {
+        "translation": "ഗൗരവമായ സ്ഥിരീകരണം",
+        "type": "Base"
+    },
+    "ad interim injunction": {
+        "translation": "താൽക്കാലിക ഇടക്കാല നിരോധന ഉത്തരവ്",
+        "type": "Base"
+    },
+    "ad valorem": {
+        "translation": "മൂല്യാനുപാതികമായി",
+        "type": "Base"
+    },
+    "adjudication": {
+        "translation": "തീർപ്പാക്കൽ",
+        "type": "Base"
+    },
+    "adjudicating authority": {
+        "translation": "തീർപ്പാക്കൽ അധികാരി",
+        "type": "Base"
+    },
+    "administrative tribunal": {
+        "translation": "ഭരണകാര്യ ട്രിബ്യൂണൽ",
+        "type": "Base"
+    },
+    "admissibility": {
+        "translation": "സ്വീകാര്യത",
+        "type": "Base"
+    },
+    "admissible evidence": {
+        "translation": "സ്വീകാര്യമായ തെളിവ്",
+        "type": "Base"
+    },
+    "adverse possession": {
+        "translation": "പ്രതികൂല കൈവശാവകാശം",
+        "type": "Base"
+    },
+    "adverse inference": {
+        "translation": "പ്രതികൂല നിഗമനം",
+        "type": "Base"
+    },
+    "advocate commissioner": {
+        "translation": "അഡ്വക്കേറ്റ് കമ്മീഷണർ",
+        "type": "Base"
+    },
+    "amicus curiae": {
+        "translation": "കോടതിസഹായി",
+        "type": "Base"
+    },
+    "annual return": {
+        "translation": "വാർഷിക റിട്ടേൺ",
+        "type": "Base"
+    },
+    "anticipatory warrant": {
+        "translation": "മുൻകൂർ വാറണ്ട്",
+        "type": "Base"
+    },
+    "appellant": {
+        "translation": "അപ്പീലൻറ്",
+        "type": "Base"
+    },
+    "appellate authority": {
+        "translation": "അപ്പീൽ അധികാരം",
+        "type": "Base"
+    },
+    "appellate court": {
+        "translation": "അപ്പീൽ കോടതി",
+        "type": "Base"
+    },
+    "arbitrable dispute": {
+        "translation": "മധ്യസ്ഥ പരിഹാരയോഗ്യ തർക്കം",
+        "type": "Base"
+    },
+    "arraignment": {
+        "translation": "കുറ്റം ചുമത്തൽ",
+        "type": "Base"
+    },
+    "asset attachment": {
+        "translation": "സ്വത്ത് ജപ്തി",
+        "type": "Base"
+    },
+    "asset freeze": {
+        "translation": "സ്വത്ത് മരവിപ്പിക്കൽ",
+        "type": "Base"
+    },
+    "assignee": {
+        "translation": "അവകാശം ഏറ്റുവാങ്ങിയവൻ",
+        "type": "Base"
+    },
+    "attachment": {
+        "translation": "ജപ്തി",
+        "type": "Base"
+    },
+    "attachment before judgment": {
+        "translation": "വിധിക്ക് മുൻപുള്ള ജപ്തി",
+        "type": "Base"
+    },
+    "attorney": {
+        "translation": "അറ്റോർണി",
+        "type": "Base"
+    },
+    "authoritative precedent": {
+        "translation": "അധികാരപരമായ മുൻവിധി",
+        "type": "Base"
+    },
+    "authorized representative": {
+        "translation": "അംഗീകൃത പ്രതിനിധി",
+        "type": "Base"
+    },
+    "bailable offence": {
+        "translation": "ജാമ്യാപരാധം",
+        "type": "Base"
+    },
+    "bench clerk": {
+        "translation": "ബെഞ്ച് ക്ലാർക്ക്",
+        "type": "Base"
+    },
+    "beneficiary": {
+        "translation": "ഗുണഭോക്താവ്",
+        "type": "Base"
+    },
+    "benefit of doubt": {
+        "translation": "സംശയത്തിന്റെ ആനുകൂല്യം",
+        "type": "Base"
+    },
+    "binding precedent": {
+        "translation": "ബാധകമായ മുൻവിധി",
+        "type": "Base"
+    },
+    "breach of privilege": {
+        "translation": "പ്രിവിലേജ് ലംഘനം",
+        "type": "Base"
+    },
+    "burden of evidence": {
+        "translation": "തെളിവ് ചുമതല",
+        "type": "Base"
+    },
+    "capital punishment": {
+        "translation": "വധശിക്ഷ",
+        "type": "Base"
+    },
+    "case law": {
+        "translation": "കേസിനിയമം",
+        "type": "Base"
+    },
+    "caveat": {
+        "translation": "കേവിയറ്റ്",
+        "type": "Base"
+    },
+    "caveator": {
+        "translation": "കേവിയറ്റ് സമർപ്പിച്ചയാൾ",
+        "type": "Base"
+    },
+    "certified translation": {
+        "translation": "സാക്ഷ്യപ്പെടുത്തിയ വിവർത്തനം",
+        "type": "Base"
+    },
+    "challan": {
+        "translation": "ചലാൻ",
+        "type": "Base"
+    },
+    "chamber hearing": {
+        "translation": "ചാംബർ ശ്രവണം",
+        "type": "Base"
+    },
+    "charge memorandum": {
+        "translation": "കുറ്റാരോപണ മെമ്മോറാണ്ടം",
+        "type": "Base"
+    },
+    "civil appeal": {
+        "translation": "സിവിൽ അപ്പീൽ",
+        "type": "Base"
+    },
+    "civil procedure": {
+        "translation": "സിവിൽ നടപടിക്രമം",
+        "type": "Base"
+    },
+    "claim petition": {
+        "translation": "ക്ലെയിം ഹർജി",
+        "type": "Base"
+    },
+    "claimant": {
+        "translation": "ക്ലെയിം സമർപ്പിച്ചയാൾ",
+        "type": "Base"
+    },
+    "closure report": {
+        "translation": "അന്വേഷണ സമാപന റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "cognizance": {
+        "translation": "കോടതി പരിഗണന",
+        "type": "Base"
+    },
+    "committal proceedings": {
+        "translation": "കമ്മിറ്റൽ നടപടികൾ",
+        "type": "Base"
+    },
+    "common order": {
+        "translation": "സാമൂഹിക ഉത്തരവ്",
+        "type": "Base"
+    },
+    "compoundable offence": {
+        "translation": "ഒത്തുതീർപ്പാക്കാവുന്ന കുറ്റം",
+        "type": "Base"
+    },
+    "compulsory acquisition": {
+        "translation": "നിർബന്ധിത ഭൂസമാഹരണം",
+        "type": "Base"
+    },
+    "concurrent findings": {
+        "translation": "സമകാലിക കണ്ടെത്തലുകൾ",
+        "type": "Base"
+    },
+    "conditional bail": {
+        "translation": "വ്യവസ്ഥാപിത ജാമ്യം",
+        "type": "Base"
+    },
+    "confidential report": {
+        "translation": "രഹസ്യ റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "confiscated property": {
+        "translation": "കണ്ടുകെട്ടിയ സ്വത്ത്",
+        "type": "Base"
+    },
+    "constitutional bench": {
+        "translation": "ഭരണഘടനാ ബെഞ്ച്",
+        "type": "Base"
+    },
+    "consumer dispute": {
+        "translation": "ഉപഭോക്തൃ തർക്കം",
+        "type": "Base"
+    },
+    "contempt petition": {
+        "translation": "അവമതിപ്പ് ഹർജി",
+        "type": "Base"
+    },
+    "contested matter": {
+        "translation": "തർക്കവിഷയം",
+        "type": "Base"
+    },
+    "convict": {
+        "translation": "ശിക്ഷിക്കപ്പെട്ട വ്യക്തി",
+        "type": "Base"
+    },
+    "conviction warrant": {
+        "translation": "ശിക്ഷാ വാറണ്ട്",
+        "type": "Base"
+    },
+    "coram": {
+        "translation": "ബെഞ്ചിന്റെ ഘടന",
+        "type": "Base"
+    },
+    "corporate liability": {
+        "translation": "കോർപ്പറേറ്റ് ബാധ്യത",
+        "type": "Base"
+    },
+    "costs": {
+        "translation": "വാദച്ചെലവ്",
+        "type": "Base"
+    },
+    "counter claim": {
+        "translation": "പ്രതിക്ലെയിം",
+        "type": "Base"
+    },
+    "court auction": {
+        "translation": "കോടതി ലേലം",
+        "type": "Base"
+    },
+    "court commissioner": {
+        "translation": "കോടതി കമ്മീഷണർ",
+        "type": "Base"
+    },
+    "court master": {
+        "translation": "കോടതി മാസ്റ്റർ",
+        "type": "Base"
+    },
+    "court officer": {
+        "translation": "കോടതി ഓഫീസർ",
+        "type": "Base"
+    },
+    "criminal appeal": {
+        "translation": "ക്രിമിനൽ അപ്പീൽ",
+        "type": "Base"
+    },
+    "criminal intimidation": {
+        "translation": "ക്രിമിനൽ ഭീഷണി",
+        "type": "Base"
+    },
+    "criminal jurisprudence": {
+        "translation": "ക്രിമിനൽ നിയമതത്വശാസ്ത്രം",
+        "type": "Base"
+    },
+    "cross objection": {
+        "translation": "ക്രോസ് ഒബ്ജക്ഷൻ",
+        "type": "Base"
+    },
+    "custodial death": {
+        "translation": "കസ്റ്റഡി മരണം",
+        "type": "Base"
+    },
+    "custodial torture": {
+        "translation": "കസ്റ്റഡി പീഡനം",
+        "type": "Base"
+    },
+    "de facto complainant": {
+        "translation": "യഥാർത്ഥ പരാതിക്കാരൻ",
+        "type": "Base"
+    },
+    "de jure": {
+        "translation": "നിയമപരമായി",
+        "type": "Base"
+    },
+    "death reference": {
+        "translation": "വധശിക്ഷ റഫറൻസ്",
+        "type": "Base"
+    },
+    "declaratory decree": {
+        "translation": "പ്രഖ്യാപന ഡിക്രി",
+        "type": "Base"
+    },
+    "deemed approval": {
+        "translation": "കരുതിയ അനുമതി",
+        "type": "Base"
+    },
+    "default sentence": {
+        "translation": "പിഴ അടയ്ക്കാത്തതിനുള്ള ശിക്ഷ",
+        "type": "Base"
+    },
+    "defamation": {
+        "translation": "അപകീർത്തി",
+        "type": "Base"
+    },
+    "delinquent employee": {
+        "translation": "കുറ്റാരോപിത ജീവനക്കാരൻ",
+        "type": "Base"
+    },
+    "demurrer": {
+        "translation": "നിയമപരമായ എതിർപ്പ്",
+        "type": "Base"
+    },
+    "departmental action": {
+        "translation": "വകുപ്പുതല നടപടി",
+        "type": "Base"
+    },
+    "deposition": {
+        "translation": "സാക്ഷിമൊഴി രേഖ",
+        "type": "Base"
+    },
+    "detenu": {
+        "translation": "തടങ്കലിൽ ഉള്ളയാൾ",
+        "type": "Base"
+    },
+    "detention order": {
+        "translation": "തടങ്കൽ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "discharge petition": {
+        "translation": "വിമുക്തി ഹർജി",
+        "type": "Base"
+    },
+    "disciplinary authority": {
+        "translation": "ശാസന അധികാരി",
+        "type": "Base"
+    },
+    "discretionary power": {
+        "translation": "വിവേചനാധികാരം",
+        "type": "Base"
+    },
+    "dismissal for default": {
+        "translation": "ഹാജരാകാതിരുന്നതിനാൽ തള്ളൽ",
+        "type": "Base"
+    },
+    "disposal": {
+        "translation": "തീർപ്പാക്കൽ",
+        "type": "Base"
+    },
+    "disputed question of fact": {
+        "translation": "വസ്തുതാ തർക്കം",
+        "type": "Base"
+    },
+    "dissenting opinion": {
+        "translation": "വ്യത്യസ്ത അഭിപ്രായം",
+        "type": "Base"
+    },
+    "doctrine of proportionality": {
+        "translation": "അനുപാതതത്വം",
+        "type": "Base"
+    },
+    "doctrine of severability": {
+        "translation": "വേർതിരിച്ചുനിൽപ്പ് തത്വം",
+        "type": "Base"
+    },
+    "domicile": {
+        "translation": "സ്ഥിര താമസാവകാശം",
+        "type": "Base"
+    },
+    "double jeopardy": {
+        "translation": "ഒരേ കുറ്റത്തിന് ഇരട്ട ശിക്ഷ",
+        "type": "Base"
+    },
+    "due diligence": {
+        "translation": "യുക്തമായ ജാഗ്രത",
+        "type": "Base"
+    },
+    "dying declaration": {
+        "translation": "മരണസമയ മൊഴി",
+        "type": "Base"
+    },
+    "easement": {
+        "translation": "സൗകര്യാവകാശം",
+        "type": "Base"
+    },
+    "economic offence": {
+        "translation": "സാമ്പത്തിക കുറ്റം",
+        "type": "Base"
+    },
+    "electronic record": {
+        "translation": "ഇലക്ട്രോണിക് രേഖ",
+        "type": "Base"
+    },
+    "embezzlement": {
+        "translation": "ധനദുരുപയോഗം",
+        "type": "Base"
+    },
+    "eminent domain": {
+        "translation": "ഭൂസമാഹരണ പരമാധികാരം",
+        "type": "Base"
+    },
+    "enforcement": {
+        "translation": "പ്രാബല്യപ്പെടുത്തൽ",
+        "type": "Base"
+    },
+    "enquiry officer": {
+        "translation": "അന്വേഷണ ഉദ്യോഗസ്ഥൻ",
+        "type": "Base"
+    },
+    "equitable jurisdiction": {
+        "translation": "നീതിപരമായ അധികാരപരിധി",
+        "type": "Base"
+    },
+    "escrow": {
+        "translation": "എസ്‌ക്രോ ക്രമീകരണം",
+        "type": "Base"
+    },
+    "estate duty": {
+        "translation": "സ്വത്തവകാശ നികുതി",
+        "type": "Base"
+    },
+    "eviction notice": {
+        "translation": "ഒഴിപ്പിക്കൽ നോട്ടീസ്",
+        "type": "Base"
+    },
+    "ex gratia": {
+        "translation": "സഹാനുഭൂതി ധനസഹായം",
+        "type": "Base"
+    },
+    "ex parte": {
+        "translation": "ഒറ്റപക്ഷീയമായി",
+        "type": "Base"
+    },
+    "ex parte decree": {
+        "translation": "ഒറ്റപക്ഷ ഡിക്രി",
+        "type": "Base"
+    },
+    "examination in chief": {
+        "translation": "മുഖ്യപരിശോധന",
+        "type": "Base"
+    },
+    "exception clause": {
+        "translation": "വിലക്കുവ്യവസ്ഥ",
+        "type": "Base"
+    },
+    "executive magistrate": {
+        "translation": "എക്സിക്യൂട്ടീവ് മജിസ്ട്രേറ്റ്",
+        "type": "Base"
+    },
+    "expert opinion": {
+        "translation": "വിദഗ്ധ അഭിപ്രായം",
+        "type": "Base"
+    },
+    "extradition": {
+        "translation": "പ്രത്യർപ്പണം",
+        "type": "Base"
+    },
+    "fact finding inquiry": {
+        "translation": "വസ്തുതാന്വേഷണം",
+        "type": "Base"
+    },
+    "fair hearing": {
+        "translation": "നീതിയുക്ത ശ്രവണം",
+        "type": "Base"
+    },
+    "false implication": {
+        "translation": "തെറ്റായ കുറ്റാരോപണം",
+        "type": "Base"
+    },
+    "family court": {
+        "translation": "കുടുംബ കോടതി",
+        "type": "Base"
+    },
+    "fatal accident": {
+        "translation": "മാരക അപകടം",
+        "type": "Base"
+    },
+    "fiduciary relationship": {
+        "translation": "വിശ്വാസബന്ധം",
+        "type": "Base"
+    },
+    "final hearing": {
+        "translation": "അന്തിമ വാദം",
+        "type": "Base"
+    },
+    "financial irregularity": {
+        "translation": "സാമ്പത്തിക ക്രമക്കേട്",
+        "type": "Base"
+    },
+    "forensic evidence": {
+        "translation": "ഫോറൻസിക് തെളിവ്",
+        "type": "Base"
+    },
+    "framing of charge": {
+        "translation": "കുറ്റം ചുമത്തൽ",
+        "type": "Base"
+    },
+    "fresh consideration": {
+        "translation": "പുനഃപരിഗണന",
+        "type": "Base"
+    },
+    "general diary": {
+        "translation": "ജനറൽ ഡയറി",
+        "type": "Base"
+    },
+    "good faith": {
+        "translation": "സദുദ്ദേശ്യം",
+        "type": "Base"
+    },
+    "grant of probate": {
+        "translation": "പ്രോബേറ്റ് അനുവദിക്കൽ",
+        "type": "Base"
+    },
+    "grievance redressal": {
+        "translation": "പരാതി പരിഹാരം",
+        "type": "Base"
+    },
+    "guardian ad litem": {
+        "translation": "കോടതി നിയോഗിച്ച രക്ഷാധികാരി",
+        "type": "Base"
+    },
+    "hearsay evidence": {
+        "translation": "കേട്ടറിഞ്ഞ തെളിവ്",
+        "type": "Base"
+    },
+    "hostile witness": {
+        "translation": "വിരുദ്ധ സാക്ഷി",
+        "type": "Base"
+    },
+    "illegal assembly": {
+        "translation": "നിയമവിരുദ്ധ സംഘം",
+        "type": "Base"
+    },
+    "immovable property": {
+        "translation": "സ്ഥാവര സ്വത്ത്",
+        "type": "Base"
+    },
+    "impleading petition": {
+        "translation": "കക്ഷിചേർക്കൽ ഹർജി",
+        "type": "Base"
+    },
+    "implied consent": {
+        "translation": "സൂചനാത്മക സമ്മതം",
+        "type": "Base"
+    },
+    "in camera proceedings": {
+        "translation": "രഹസ്യ വിചാരണ",
+        "type": "Base"
+    },
+    "incidental powers": {
+        "translation": "അനുബന്ധ അധികാരങ്ങൾ",
+        "type": "Base"
+    },
+    "income assessment": {
+        "translation": "വരുമാന നിർണ്ണയം",
+        "type": "Base"
+    },
+    "indemnity": {
+        "translation": "നഷ്ടപരിഹാര ഉറപ്പ്",
+        "type": "Base"
+    },
+    "independent witness": {
+        "translation": "സ്വതന്ത്ര സാക്ഷി",
+        "type": "Base"
+    },
+    "indictment": {
+        "translation": "കുറ്റപത്രം",
+        "type": "Base"
+    },
+    "indigent person": {
+        "translation": "ദരിദ്ര ഹർജിക്കാരൻ",
+        "type": "Base"
+    },
+    "industrial tribunal": {
+        "translation": "വ്യവസായ ട്രിബ്യൂണൽ",
+        "type": "Base"
+    },
+    "information memorandum": {
+        "translation": "വിവര മെമ്മോറാണ്ടം",
+        "type": "Base"
+    },
+    "inheritance": {
+        "translation": "പാരമ്പര്യാവകാശം",
+        "type": "Base"
+    },
+    "injury report": {
+        "translation": "പരിക്ക് റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "inspector general": {
+        "translation": "ഇൻസ്പെക്ടർ ജനറൽ",
+        "type": "Base"
+    },
+    "interlocutory application": {
+        "translation": "ഇടക്കാല അപേക്ഷ",
+        "type": "Base"
+    },
+    "interrogation": {
+        "translation": "ചോദ്യം ചെയ്യൽ",
+        "type": "Base"
+    },
+    "intervention petition": {
+        "translation": "ഇടപെടൽ ഹർജി",
+        "type": "Base"
+    },
+    "intestate succession": {
+        "translation": "വസിയത്തില്ലാത്ത അവകാശപരമ്പര",
+        "type": "Base"
+    },
+    "judicial review": {
+        "translation": "ന്യായപരിശോധന",
+        "type": "Base"
+    },
+    "judicial restraint": {
+        "translation": "ന്യായപരമായ നിയന്ത്രണം",
+        "type": "Base"
+    },
+    "juristic person": {
+        "translation": "നിയമപര വ്യക്തിത്വം",
+        "type": "Base"
+    },
+    "juvenile justice": {
+        "translation": "കുട്ടികളുടെ നീതി",
+        "type": "Base"
+    },
+    "knowledge of offence": {
+        "translation": "കുറ്റത്തെക്കുറിച്ചുള്ള അറിവ്",
+        "type": "Base"
+    },
+    "land acquisition": {
+        "translation": "ഭൂസമാഹരണം",
+        "type": "Base"
+    },
+    "law officer": {
+        "translation": "നിയമ ഉദ്യോഗസ്ഥൻ",
+        "type": "Base"
+    },
+    "legal capacity": {
+        "translation": "നിയമപരമായ കഴിവ്",
+        "type": "Base"
+    },
+    "legal custody": {
+        "translation": "നിയമപര കസ്റ്റഡി",
+        "type": "Base"
+    },
+    "legal disability": {
+        "translation": "നിയമപര അയോഗ്യത",
+        "type": "Base"
+    },
+    "legal practitioner": {
+        "translation": "നിയമപ്രവർത്തകൻ",
+        "type": "Base"
+    },
+    "legal representative": {
+        "translation": "നിയമ പ്രതിനിധി",
+        "type": "Base"
+    },
+    "legislative competence": {
+        "translation": "നിയമനിർമ്മാണ അധികാരം",
+        "type": "Base"
+    },
+    "letter of administration": {
+        "translation": "ഭരണാവകാശ പത്രം",
+        "type": "Base"
+    },
+    "levy": {
+        "translation": "നികുതി ചുമത്തൽ",
+        "type": "Base"
+    },
+    "liable": {
+        "translation": "ബാധ്യതപ്പെട്ട",
+        "type": "Base"
+    },
+    "liberty": {
+        "translation": "സ്വാതന്ത്ര്യം",
+        "type": "Base"
+    },
+    "licensing authority": {
+        "translation": "ലൈസൻസിംഗ് അധികാരി",
+        "type": "Base"
+    },
+    "limitation period": {
+        "translation": "കാലപരിധി",
+        "type": "Base"
+    },
+    "line of succession": {
+        "translation": "അവകാശപരമ്പര",
+        "type": "Base"
+    },
+    "litigant": {
+        "translation": "കേസുകാരൻ",
+        "type": "Base"
+    },
+    "living will": {
+        "translation": "ജീവവസിയത്ത്",
+        "type": "Base"
+    },
+    "local inspection": {
+        "translation": "പ്രാദേശിക പരിശോധന",
+        "type": "Base"
+    },
+    "lockout": {
+        "translation": "ലോക്കൗട്ട്",
+        "type": "Base"
+    },
+    "magisterial inquiry": {
+        "translation": "മജിസ്ട്രേറ്റൽ അന്വേഷണം",
+        "type": "Base"
+    },
+    "maintenance tribunal": {
+        "translation": "പരിപാലന ട്രിബ്യൂണൽ",
+        "type": "Base"
+    },
+    "malicious prosecution": {
+        "translation": "ദുരുദ്ദേശ പ്രോസിക്യൂഷൻ",
+        "type": "Base"
+    },
+    "mandatory injunction": {
+        "translation": "നിർബന്ധിത നിരോധന ഉത്തരവ്",
+        "type": "Base"
+    },
+    "market value": {
+        "translation": "വിപണി മൂല്യം",
+        "type": "Base"
+    },
+    "matrimonial dispute": {
+        "translation": "ദാമ്പത്യ തർക്കം",
+        "type": "Base"
+    },
+    "mens rea": {
+        "translation": "കുറ്റബോധം",
+        "type": "Base"
+    },
+    "mercantile law": {
+        "translation": "വാണിജ്യ നിയമം",
+        "type": "Base"
+    },
+    "miscarriage of justice": {
+        "translation": "നീതിനിഷേധം",
+        "type": "Base"
+    },
+    "misjoinder": {
+        "translation": "തെറ്റായ കക്ഷിചേർക്കൽ",
+        "type": "Base"
+    },
+    "mitigating circumstances": {
+        "translation": "ശിക്ഷ കുറയ്ക്കുന്ന സാഹചര്യങ്ങൾ",
+        "type": "Base"
+    },
+    "mobile evidence": {
+        "translation": "മൊബൈൽ തെളിവ്",
+        "type": "Base"
+    },
+    "money decree": {
+        "translation": "ധനഡിക്രി",
+        "type": "Base"
+    },
+    "mortgagor": {
+        "translation": "പണയക്കാരൻ",
+        "type": "Base"
+    },
+    "mortgagee": {
+        "translation": "പണയസ്വീകർത്താവ്",
+        "type": "Base"
+    },
+    "motor accident claim": {
+        "translation": "മോട്ടോർ അപകട നഷ്ടപരിഹാര ഹർജി",
+        "type": "Base"
+    },
+    "municipal authority": {
+        "translation": "മുനിസിപ്പൽ അധികാരി",
+        "type": "Base"
+    },
+    "mutual consent divorce": {
+        "translation": "പരസ്പര സമ്മത വിവാഹമോചനം",
+        "type": "Base"
+    },
+    "natural guardian": {
+        "translation": "സ്വാഭാവിക രക്ഷാധികാരി",
+        "type": "Base"
+    },
+    "negative covenant": {
+        "translation": "നിരോധന വ്യവസ്ഥ",
+        "type": "Base"
+    },
+    "negotiable instrument": {
+        "translation": "വിനിമയയോഗ്യ രേഖ",
+        "type": "Base"
+    },
+    "next friend": {
+        "translation": "കോടതി പ്രതിനിധി സുഹൃത്ത്",
+        "type": "Base"
+    },
+    "non bailable offence": {
+        "translation": "ജാമ്യമില്ലാത്ത കുറ്റം",
+        "type": "Base"
+    },
+    "non est": {
+        "translation": "നിയമപരമായി നിലവിലില്ലാത്ത",
+        "type": "Base"
+    },
+    "non speaking order": {
+        "translation": "കാരണരഹിത ഉത്തരവ്",
+        "type": "Base"
+    },
+    "not guilty": {
+        "translation": "കുറ്റമില്ല",
+        "type": "Base"
+    },
+    "not proven": {
+        "translation": "തെളിയിക്കപ്പെട്ടിട്ടില്ല",
+        "type": "Base"
+    },
+    "null and void": {
+        "translation": "പൂർണ്ണമായും അസാധു",
+        "type": "Base"
+    },
+    "nuisance": {
+        "translation": "ശല്യം",
+        "type": "Base"
+    },
+    "objection petition": {
+        "translation": "എതിർപ്പ് ഹർജി",
+        "type": "Base"
+    },
+    "official memorandum": {
+        "translation": "ഔദ്യോഗിക മെമ്മോറാണ്ടം",
+        "type": "Base"
+    },
+    "onus of proof": {
+        "translation": "തെളിവ് ചുമതല",
+        "type": "Base"
+    },
+    "open court": {
+        "translation": "തുറന്ന കോടതി",
+        "type": "Base"
+    },
+    "operative portion": {
+        "translation": "പ്രാബല്യത്തിലുള്ള ഭാഗം",
+        "type": "Base"
+    },
+    "oral argument": {
+        "translation": "വായ്മൊഴി വാദം",
+        "type": "Base"
+    },
+    "ordinary original jurisdiction": {
+        "translation": "സാധാരണ അസൽ അധികാരപരിധി",
+        "type": "Base"
+    },
+    "out of court settlement": {
+        "translation": "കോടതിക്ക് പുറത്തുള്ള ഒത്തുതീർപ്പ്",
+        "type": "Base"
+    },
+    "overruling": {
+        "translation": "മുൻവിധി റദ്ദാക്കൽ",
+        "type": "Base"
+    },
+    "ownership dispute": {
+        "translation": "ഉടമസ്ഥാവകാശ തർക്കം",
+        "type": "Base"
+    },
+    "panchanama": {
+        "translation": "പഞ്ചായത്ത് രേഖ",
+        "type": "Base"
+    },
+    "parens patriae": {
+        "translation": "സംരക്ഷണാധികാര തത്വം",
+        "type": "Base"
+    },
+    "parliamentary privilege": {
+        "translation": "പാർലമെന്ററി അവകാശം",
+        "type": "Base"
+    },
+    "part heard": {
+        "translation": "ഭാഗികമായി കേട്ട",
+        "type": "Base"
+    },
+    "partial decree": {
+        "translation": "ഭാഗിക ഡിക്രി",
+        "type": "Base"
+    },
+    "party in person": {
+        "translation": "സ്വയം ഹാജരാകുന്ന കക്ഷി",
+        "type": "Base"
+    },
+    "passive euthanasia": {
+        "translation": "നിഷ്ക്രിയ ദയാവധം",
+        "type": "Base"
+    },
+    "pecuniary jurisdiction": {
+        "translation": "ധനപര അധികാരപരിധി",
+        "type": "Base"
+    },
+    "penal provision": {
+        "translation": "ശിക്ഷാ വ്യവസ്ഥ",
+        "type": "Base"
+    },
+    "pending proceedings": {
+        "translation": "നിലവിലുള്ള നടപടികൾ",
+        "type": "Base"
+    },
+    "per incuriam": {
+        "translation": "നിയമപര പിഴവോടെ",
+        "type": "Base"
+    },
+    "permanent injunction": {
+        "translation": "സ്ഥിര നിരോധന ഉത്തരവ്",
+        "type": "Base"
+    },
+    "personal hearing": {
+        "translation": "വ്യക്തിഗത ശ്രവണം",
+        "type": "Base"
+    },
+    "plea bargaining": {
+        "translation": "ശിക്ഷാ ഒത്തുതീർപ്പ്",
+        "type": "Base"
+    },
+    "pleading": {
+        "translation": "വാദരേഖ",
+        "type": "Base"
+    },
+    "point of law": {
+        "translation": "നിയമപ്രശ്നം",
+        "type": "Base"
+    },
+    "police report": {
+        "translation": "പോലീസ് റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "possessory rights": {
+        "translation": "കൈവശാവകാശം",
+        "type": "Base"
+    },
+    "power of attorney": {
+        "translation": "അധികാരപത്രം",
+        "type": "Base"
+    },
+    "preliminary decree": {
+        "translation": "പ്രാഥമിക ഡിക്രി",
+        "type": "Base"
+    },
+    "presumption of innocence": {
+        "translation": "നിരപരാധിത്വ അനുമാനം",
+        "type": "Base"
+    },
+    "preventive detention": {
+        "translation": "പ്രതിരോധ തടങ്കൽ",
+        "type": "Base"
+    },
+    "prima facie case": {
+        "translation": "പ്രഥമദൃഷ്ട്യാ കേസ്",
+        "type": "Base"
+    },
+    "principal employer": {
+        "translation": "പ്രധാന തൊഴിലുടമ",
+        "type": "Base"
+    },
+    "private defence": {
+        "translation": "സ്വകാര്യ പ്രതിരോധാവകാശം",
+        "type": "Base"
+    },
+    "procedural law": {
+        "translation": "നടപടി നിയമം",
+        "type": "Base"
+    },
+    "proclaimed offender": {
+        "translation": "പ്രഖ്യാപിത കുറ്റവാളി",
+        "type": "Base"
+    },
+    "promissory note": {
+        "translation": "വാഗ്ദാനപത്രം",
+        "type": "Base"
+    },
+    "property dispute": {
+        "translation": "സ്വത്ത് തർക്കം",
+        "type": "Base"
+    },
+    "prosecution witness": {
+        "translation": "പ്രോസിക്യൂഷൻ സാക്ഷി",
+        "type": "Base"
+    },
+    "protective discrimination": {
+        "translation": "സംരക്ഷണ വിവേചനം",
+        "type": "Base"
+    },
+    "public document": {
+        "translation": "പൊതു രേഖ",
+        "type": "Base"
+    },
+    "public nuisance": {
+        "translation": "പൊതു ശല്യം",
+        "type": "Base"
+    },
+    "punitive damages": {
+        "translation": "ശിക്ഷാത്മക നഷ്ടപരിഹാരം",
+        "type": "Base"
+    },
+    "quasi judicial authority": {
+        "translation": "അർധന്യായ അധികാരം",
+        "type": "Base"
+    },
+    "quashing petition": {
+        "translation": "റദ്ദാക്കൽ ഹർജി",
+        "type": "Base"
+    },
+    "questioned document": {
+        "translation": "സംശയാസ്പദ രേഖ",
+        "type": "Base"
+    },
+    "quit notice": {
+        "translation": "ഒഴിവാക്കൽ നോട്ടീസ്",
+        "type": "Base"
+    },
+    "ration card": {
+        "translation": "റേഷൻ കാർഡ്",
+        "type": "Base"
+    },
+    "re admission": {
+        "translation": "വീണ്ടും സ്വീകരിക്കൽ",
+        "type": "Base"
+    },
+    "re examination": {
+        "translation": "പുനഃപരിശോധന",
+        "type": "Base"
+    },
+    "reasonable restriction": {
+        "translation": "യുക്തിസഹ നിയന്ത്രണം",
+        "type": "Base"
+    },
+    "rebuttal evidence": {
+        "translation": "പ്രതിവാദ തെളിവ്",
+        "type": "Base"
+    },
+    "receivership": {
+        "translation": "റിസീവർ ഭരണനം",
+        "type": "Base"
+    },
+    "reconciliation": {
+        "translation": "പുനഃസമാധാനം",
+        "type": "Base"
+    },
+    "record of rights": {
+        "translation": "അവകാശ രേഖ",
+        "type": "Base"
+    },
+    "recovery proceedings": {
+        "translation": "പിരിവ് നടപടികൾ",
+        "type": "Base"
+    },
+    "redressal forum": {
+        "translation": "പരിഹാര ഫോറം",
+        "type": "Base"
+    },
+    "reference court": {
+        "translation": "റഫറൻസ് കോടതി",
+        "type": "Base"
+    },
+    "registered document": {
+        "translation": "രജിസ്റ്റർ ചെയ്ത രേഖ",
+        "type": "Base"
+    },
+    "registrar general": {
+        "translation": "റജിസ്ട്രാർ ജനറൽ",
+        "type": "Base"
+    },
+    "regularization": {
+        "translation": "നിയമാനുസൃതമാക്കൽ",
+        "type": "Base"
+    },
+    "reinstatement": {
+        "translation": "പുനർനിയമനം",
+        "type": "Base"
+    },
+    "remedial measure": {
+        "translation": "പരിഹാര നടപടി",
+        "type": "Base"
+    },
+    "remission": {
+        "translation": "ശിക്ഷ ഇളവ്",
+        "type": "Base"
+    },
+    "rent control court": {
+        "translation": "വാടക നിയന്ത്രണ കോടതി",
+        "type": "Base"
+    },
+    "representation": {
+        "translation": "പ്രതിനിധാനം",
+        "type": "Base"
+    },
+    "resumption": {
+        "translation": "വീണ്ടെടുപ്പ്",
+        "type": "Base"
+    },
+    "retrospective effect": {
+        "translation": "പൂർവപ്രാബല്യം",
+        "type": "Base"
+    },
+    "revisional authority": {
+        "translation": "റിവിഷൻ അധികാരി",
+        "type": "Base"
+    },
+    "right to equality": {
+        "translation": "സമത്വാവകാശം",
+        "type": "Base"
+    },
+    "right to life": {
+        "translation": "ജീവനവകാശം",
+        "type": "Base"
+    },
+    "right to privacy": {
+        "translation": "സ്വകാര്യതാവകാശം",
+        "type": "Base"
+    },
+    "rule nisi": {
+        "translation": "പ്രാഥമിക കോടതി നിർദ്ദേശം",
+        "type": "Base"
+    },
+    "salary certificate": {
+        "translation": "ശമ്പള സർട്ടിഫിക്കറ്റ്",
+        "type": "Base"
+    },
+    "search memo": {
+        "translation": "തിരച്ചിൽ മെമ്മോ",
+        "type": "Base"
+    },
+    "secured creditor": {
+        "translation": "സുരക്ഷിത വായ്പദാതാവ്",
+        "type": "Base"
+    },
+    "security deposit": {
+        "translation": "സുരക്ഷാ നിക്ഷേപം",
+        "type": "Base"
+    },
+    "self incrimination": {
+        "translation": "സ്വയം കുറ്റസമ്മതം",
+        "type": "Base"
+    },
+    "senior counsel": {
+        "translation": "സീനിയർ അഭിഭാഷകൻ",
+        "type": "Base"
+    },
+    "service benefits": {
+        "translation": "സേവന ആനുകൂല്യങ്ങൾ",
+        "type": "Base"
+    },
+    "settled possession": {
+        "translation": "സ്ഥിര കൈവശം",
+        "type": "Base"
+    },
+    "share certificate": {
+        "translation": "ഓഹരി സർട്ടിഫിക്കറ്റ്",
+        "type": "Base"
+    },
+    "show cause notice": {
+        "translation": "കാരണം കാണിക്കൽ നോട്ടീസ്",
+        "type": "Base"
+    },
+    "signature verification": {
+        "translation": "ഒപ്പ് സ്ഥിരീകരണം",
+        "type": "Base"
+    },
+    "simple imprisonment": {
+        "translation": "ലഘു തടവ്",
+        "type": "Base"
+    },
+    "speaking order": {
+        "translation": "കാരണസഹിത ഉത്തരവ്",
+        "type": "Base"
+    },
+    "special court": {
+        "translation": "പ്രത്യേക കോടതി",
+        "type": "Base"
+    },
+    "specific performance": {
+        "translation": "നിശ്ചിത നിർവഹണം",
+        "type": "Base"
+    },
+    "speedy trial": {
+        "translation": "വേഗത്തിലുള്ള വിചാരണ",
+        "type": "Base"
+    },
+    "stamp paper": {
+        "translation": "സ്റ്റാമ്പ് പേപ്പർ",
+        "type": "Base"
+    },
+    "state amendment": {
+        "translation": "സംസ്ഥാന ഭേദഗതി",
+        "type": "Base"
+    },
+    "statutory authority": {
+        "translation": "നിയമാനുസൃത അധികാരി",
+        "type": "Base"
+    },
+    "statutory notice": {
+        "translation": "നിയമപര നോട്ടീസ്",
+        "type": "Base"
+    },
+    "stay petition": {
+        "translation": "സ്റ്റേ ഹർജി",
+        "type": "Base"
+    },
+    "sub judice": {
+        "translation": "കോടതി പരിഗണനയിൽ ഉള്ള",
+        "type": "Base"
+    },
+    "sub registrar": {
+        "translation": "സബ് രജിസ്ട്രാർ",
+        "type": "Base"
+    },
+    "substantive law": {
+        "translation": "പ്രധാന നിയമം",
+        "type": "Base"
+    },
+    "succession certificate": {
+        "translation": "അവകാശ സർട്ടിഫിക്കറ്റ്",
+        "type": "Base"
+    },
+    "summary trial": {
+        "translation": "സംക്ഷിപ്ത വിചാരണ",
+        "type": "Base"
+    },
+    "supervisory jurisdiction": {
+        "translation": "പരിപാലന അധികാരപരിധി",
+        "type": "Base"
+    },
+    "suppression of facts": {
+        "translation": "വസ്തുത മറച്ചുവെക്കൽ",
+        "type": "Base"
+    },
+    "suo motu": {
+        "translation": "സ്വമേധയാ",
+        "type": "Base"
+    },
+    "surety bond": {
+        "translation": "ജാമ്യബോണ്ട്",
+        "type": "Base"
+    },
+    "surplus land": {
+        "translation": "അധിക ഭൂമി",
+        "type": "Base"
+    },
+    "suspended sentence": {
+        "translation": "താൽക്കാലികമായി നിർത്തിയ ശിക്ഷ",
+        "type": "Base"
+    },
+    "temporary injunction": {
+        "translation": "താൽക്കാലിക നിരോധന ഉത്തരവ്",
+        "type": "Base"
+    },
+    "territorial jurisdiction": {
+        "translation": "പ്രാദേശിക അധികാരപരിധി",
+        "type": "Base"
+    },
+    "test identification parade": {
+        "translation": "തിരിച്ചറിയൽ പരേഡ്",
+        "type": "Base"
+    },
+    "time barred": {
+        "translation": "കാലഹരണപ്പെട്ട",
+        "type": "Base"
+    },
+    "title suit": {
+        "translation": "ഉടമസ്ഥാവകാശ കേസ്",
+        "type": "Base"
+    },
+    "tortious liability": {
+        "translation": "ടോർട്ട് ബാധ്യത",
+        "type": "Base"
+    },
+    "transfer petition": {
+        "translation": "കേസുമാറ്റ ഹർജി",
+        "type": "Base"
+    },
+    "transferee": {
+        "translation": "സ്വീകർത്താവ്",
+        "type": "Base"
+    },
+    "transit remand": {
+        "translation": "ട്രാൻസിറ്റ് റിമാൻഡ്",
+        "type": "Base"
+    },
+    "trespasser": {
+        "translation": "അതിക്രമപ്രവേശകൻ",
+        "type": "Base"
+    },
+    "trial court": {
+        "translation": "വിചാരണ കോടതി",
+        "type": "Base"
+    },
+    "unconstitutional": {
+        "translation": "ഭരണഘടനാവിരുദ്ധമായ",
+        "type": "Base"
+    },
+    "undertrial prisoner": {
+        "translation": "വിചാരണ കാത്തിരിക്കുന്ന തടവുകാരൻ",
+        "type": "Base"
+    },
+    "undue influence": {
+        "translation": "അനാവശ്യ സ്വാധീനം",
+        "type": "Base"
+    },
+    "unlawful activity": {
+        "translation": "നിയമവിരുദ്ധ പ്രവർത്തനം",
+        "type": "Base"
+    },
+    "unsecured creditor": {
+        "translation": "സുരക്ഷയില്ലാത്ത വായ്പദാതാവ്",
+        "type": "Base"
+    },
+    "usufructuary mortgage": {
+        "translation": "ഉപഭോഗ പണയം",
+        "type": "Base"
+    },
+    "vacate stay": {
+        "translation": "സ്റ്റേ റദ്ദാക്കൽ",
+        "type": "Base"
+    },
+    "vakalatnama": {
+        "translation": "വക്കാലത്ത്",
+        "type": "Base"
+    },
+    "validity": {
+        "translation": "സാധുത",
+        "type": "Base"
+    },
+    "venue of trial": {
+        "translation": "വിചാരണ സ്ഥലം",
+        "type": "Base"
+    },
+    "verification affidavit": {
+        "translation": "സ്ഥിരീകരണ സത്യവാങ്മൂലം",
+        "type": "Base"
+    },
+    "vested right": {
+        "translation": "സ്ഥിരാവകാശം",
+        "type": "Base"
+    },
+    "victim impact statement": {
+        "translation": "ബാധിത സ്വാധീന പ്രസ്താവന",
+        "type": "Base"
+    },
+    "videography": {
+        "translation": "വീഡിയോ രേഖപ്പെടുത്തൽ",
+        "type": "Base"
+    },
+    "vigilance inquiry": {
+        "translation": "വിജിലൻസ് അന്വേഷണം",
+        "type": "Base"
+    },
+    "void agreement": {
+        "translation": "അസാധുവായ കരാർ",
+        "type": "Base"
+    },
+    "voluntary statement": {
+        "translation": "സ്വമേധയാ നൽകിയ മൊഴി",
+        "type": "Base"
+    },
+    "waiver": {
+        "translation": "അവകാശവിലക്ക്",
+        "type": "Base"
+    },
+    "ward of court": {
+        "translation": "കോടതി സംരക്ഷണത്തിലുള്ള വ്യക്തി",
+        "type": "Base"
+    },
+    "warrant case": {
+        "translation": "വാറണ്ട് കേസ്",
+        "type": "Base"
+    },
+    "welfare legislation": {
+        "translation": "ക്ഷേമ നിയമനിർമ്മാണം",
+        "type": "Base"
+    },
+    "wilful disobedience": {
+        "translation": "മനപ്പൂർവ്വ അനുസരണക്കേട്",
+        "type": "Base"
+    },
+    "winding up": {
+        "translation": "കമ്പനി അവസാനിപ്പിക്കൽ",
+        "type": "Base"
+    },
+    "withdrawal of case": {
+        "translation": "കേസ് പിൻവലിക്കൽ",
+        "type": "Base"
+    },
+    "work charge employee": {
+        "translation": "താൽക്കാലിക തൊഴിൽ ജീവനക്കാരൻ",
+        "type": "Base"
+    },
+    "written argument": {
+        "translation": "എഴുത്തുപരമായ വാദം",
+        "type": "Base"
+    },
+    "written complaint": {
+        "translation": "എഴുത്തുപരമായ പരാതി",
+        "type": "Base"
+    },
+    "written statement": {
+        "translation": "എഴുത്തുപരമായ പ്രതിവാദം",
+        "type": "Base"
+    },
+    "young offender": {
+        "translation": "യുവ കുറ്റവാളി",
+        "type": "Base"
+    },
+    "curative petition": {
+        "translation": "ക്യൂറേറ്റീവ് ഹർജി",
+        "type": "Base"
+    },
+    "cause title": {
+        "translation": "കേസ് തലക്കെട്ട്",
+        "type": "Base"
+    },
+    "gazette notification": {
+        "translation": "ഗസറ്റ് വിജ്ഞാപനം",
+        "type": "Base"
+    },
+    "letters of administration": {
+        "translation": "ഭരണാവകാശ രേഖ",
+        "type": "Base"
+    },
+    "testator": {
+        "translation": "വിൽ തയ്യാറാക്കിയ വ്യക്തി",
+        "type": "Base"
+    },
+    "estate": {
+        "translation": "സ്വത്ത് സമാഹാരം",
+        "type": "Base"
+    },
+    "settlement deed": {
+        "translation": "ഒത്തുതീർപ്പ് പത്രം",
+        "type": "Base"
+    },
+    "mortgage deed": {
+        "translation": "പണയ പത്രം",
+        "type": "Base"
+    },
+    "encumbrance certificate": {
+        "translation": "ബാധ്യതാ സർട്ടിഫിക്കറ്റ്",
+        "type": "Base"
+    },
+    "patta": {
+        "translation": "പട്ടയം",
+        "type": "Base"
+    },
+    "mutation": {
+        "translation": "പേരുമാറ്റം",
+        "type": "Base"
+    },
+    "survey number": {
+        "translation": "സർവേ നമ്പർ",
+        "type": "Base"
+    },
+    "revenue records": {
+        "translation": "റവന്യൂ രേഖകൾ",
+        "type": "Base"
+    },
+    "joint ownership": {
+        "translation": "സംയുക്ത ഉടമസ്ഥാവകാശം",
+        "type": "Base"
+    },
+    "exclusive possession": {
+        "translation": "പൂർണ്ണ കൈവശം",
+        "type": "Base"
+    },
+    "beyond reasonable doubt": {
+        "translation": "സംശയാതീതമായി",
+        "type": "Base"
+    },
+    "eyewitness": {
+        "translation": "ദൃക്സാക്ഷി",
+        "type": "Base"
+    },
+    "forensic report": {
+        "translation": "ഫോറൻസിക് റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "fingerprint analysis": {
+        "translation": "വിരലടയാള പരിശോധന",
+        "type": "Base"
+    },
+    "postmortem report": {
+        "translation": "മരണാനന്തര പരിശോധന റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "confession statement": {
+        "translation": "കുറ്റസമ്മത മൊഴി",
+        "type": "Base"
+    },
+    "remand report": {
+        "translation": "റിമാൻഡ് റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "charge memo": {
+        "translation": "ചാർജ് മെമ്മോ",
+        "type": "Base"
+    },
+    "suspension order": {
+        "translation": "സസ്‌പെൻഷൻ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "termination order": {
+        "translation": "പിരിച്ചുവിടൽ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "back wages": {
+        "translation": "കുടിശ്ശിക വേതനം",
+        "type": "Base"
+    },
+    "collective bargaining": {
+        "translation": "കൂട്ടായ ചർച്ച",
+        "type": "Base"
+    },
+    "trade union": {
+        "translation": "ട്രേഡ് യൂണിയൻ",
+        "type": "Base"
+    },
+    "strike": {
+        "translation": "പണിമുടക്ക്",
+        "type": "Base"
+    },
+    "minimum wages": {
+        "translation": "കുറഞ്ഞ വേതനം",
+        "type": "Base"
+    },
+    "employee compensation": {
+        "translation": "തൊഴിലാളി നഷ്ടപരിഹാരം",
+        "type": "Base"
+    },
+    "consumer forum": {
+        "translation": "ഉപഭോക്തൃ ഫോറം",
+        "type": "Base"
+    },
+    "deficiency in service": {
+        "translation": "സേവനത്തിലെ അപാകത",
+        "type": "Base"
+    },
+    "unfair trade practice": {
+        "translation": "അന്യായ വ്യാപാര രീതി",
+        "type": "Base"
+    },
+    "medical negligence": {
+        "translation": "വൈദ്യപരമായ അനാസ്ഥ",
+        "type": "Base"
+    },
+    "insurance claim": {
+        "translation": "ഇൻഷുറൻസ് അവകാശവാദം",
+        "type": "Base"
+    },
+    "policy holder": {
+        "translation": "പോളിസി ഉടമ",
+        "type": "Base"
+    },
+    "nominee": {
+        "translation": "നോമിനി",
+        "type": "Base"
+    },
+    "bank guarantee": {
+        "translation": "ബാങ്ക് ഗ്യാരണ്ടി",
+        "type": "Base"
+    },
+    "cheque dishonour": {
+        "translation": "ചെക്ക് മടങ്ങൽ",
+        "type": "Base"
+    },
+    "bill of exchange": {
+        "translation": "വിനിമയ ബിൽ",
+        "type": "Base"
+    },
+    "letter of credit": {
+        "translation": "ക്രെഡിറ്റ് ലെറ്റർ",
+        "type": "Base"
+    },
+    "financial fraud": {
+        "translation": "സാമ്പത്തിക തട്ടിപ്പ്",
+        "type": "Base"
+    },
+    "data breach": {
+        "translation": "ഡാറ്റ ചോർച്ച",
+        "type": "Base"
+    },
+    "identity theft": {
+        "translation": "തിരിച്ചറിയൽ മോഷണം",
+        "type": "Base"
+    },
+    "copyright infringement": {
+        "translation": "പകർപ്പവകാശ ലംഘനം",
+        "type": "Base"
+    },
+    "trademark violation": {
+        "translation": "വ്യാപാരമുദ്ര ലംഘനം",
+        "type": "Base"
+    },
+    "patent infringement": {
+        "translation": "പേറ്റന്റ് ലംഘനം",
+        "type": "Base"
+    },
+    "intellectual property": {
+        "translation": "ബൗദ്ധിക സ്വത്തവകാശം",
+        "type": "Base"
+    },
+    "licensing agreement": {
+        "translation": "ലൈസൻസിംഗ് കരാർ",
+        "type": "Base"
+    },
+    "non disclosure agreement": {
+        "translation": "രഹസ്യപരിപാലന കരാർ",
+        "type": "Base"
+    },
+    "liquidated damages": {
+        "translation": "നിശ്ചിത നഷ്ടപരിഹാരം",
+        "type": "Base"
+    },
+    "force majeure": {
+        "translation": "അപ്രതീക്ഷിത സാഹചര്യം",
+        "type": "Base"
+    },
+    "arbitration clause": {
+        "translation": "മധ്യസ്ഥ വ്യവസ്ഥ",
+        "type": "Base"
+    },
+    "administrative order": {
+        "translation": "ഭരണ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "executive order": {
+        "translation": "കാര്യനിർവാഹക ഉത്തരവ്",
+        "type": "Base"
+    },
+    "rejoinder affidavit": {
+        "translation": "മറുപടി സത്യവാങ്മൂലം",
+        "type": "Base"
+    },
+    "written submission": {
+        "translation": "ലിഖിത വാദം",
+        "type": "Base"
+    },
+    "oral arguments": {
+        "translation": "വായ്മൊഴി വാദങ്ങൾ",
+        "type": "Base"
+    },
+    "reasoned judgment": {
+        "translation": "കാരണസഹിത വിധി",
+        "type": "Base"
+    },
+    "reserved judgment": {
+        "translation": "സംവരണം ചെയ്ത വിധി",
+        "type": "Base"
+    },
+    "pronouncement": {
+        "translation": "വിധി പ്രസ്താവനം",
+        "type": "Base"
+    },
+    "rigorous imprisonment": {
+        "translation": "കഠിന തടവ്",
+        "type": "Base"
+    },
+    "fine amount": {
+        "translation": "പിഴ തുക",
+        "type": "Base"
+    },
+    "child in conflict with law": {
+        "translation": "നിയമവുമായി സംഘർഷത്തിലുള്ള കുട്ടി",
+        "type": "Base"
+    },
+    "rehabilitation scheme": {
+        "translation": "പുനരധിവാസ പദ്ധതി",
+        "type": "Base"
+    },
+    "maintenance allowance": {
+        "translation": "ജീവനാംശം",
+        "type": "Base"
+    },
+    "dowry harassment": {
+        "translation": "സ്ത്രീധന പീഡനം",
+        "type": "Base"
+    },
+    "custody of child": {
+        "translation": "കുട്ടിയുടെ സംരക്ഷണാവകാശം",
+        "type": "Base"
+    },
+    "visitation rights": {
+        "translation": "സന്ദർശനാവകാശം",
+        "type": "Base"
+    },
+    "divorce petition": {
+        "translation": "വിവാഹമോചന ഹർജി",
+        "type": "Base"
+    },
+    "judicial separation": {
+        "translation": "ന്യായപരമായ വേർപിരിയൽ",
+        "type": "Base"
+    },
+    "adoption deed": {
+        "translation": "ദത്തെടുക്കൽ പത്രം",
+        "type": "Base"
+    },
+    "guardianship": {
+        "translation": "സംരക്ഷകാവകാശം",
+        "type": "Base"
+    },
+    "minor child": {
+        "translation": "പ്രായപൂർത്തിയാകാത്ത കുട്ടി",
+        "type": "Base"
+    },
+    "majority age": {
+        "translation": "പ്രായപൂർത്തി വയസ്",
+        "type": "Base"
+    },
+    "junior advocate": {
+        "translation": "ജൂനിയർ അഭിഭാഷകൻ",
+        "type": "Base"
+    },
+    "commission report": {
+        "translation": "കമ്മീഷൻ റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "site inspection": {
+        "translation": "സ്ഥല പരിശോധന",
+        "type": "Base"
+    },
+    "mahazar": {
+        "translation": "മഹസർ",
+        "type": "Base"
+    },
+    "spot inspection": {
+        "translation": "സംഭവസ്ഥല പരിശോധന",
+        "type": "Base"
+    },
+    "inventory": {
+        "translation": "സ്വത്ത് പട്ടിക",
+        "type": "Base"
+    },
+    "seizure memo": {
+        "translation": "കയ്യേറ്റ രേഖ",
+        "type": "Base"
+    },
+    "arrest warrant": {
+        "translation": "അറസ്റ്റ് വാറണ്ട്",
+        "type": "Base"
+    },
+    "non bailable warrant": {
+        "translation": "ജാമ്യമില്ലാ വാറണ്ട്",
+        "type": "Base"
+    },
+    "summons case": {
+        "translation": "സമ്മൺസ് കേസ്",
+        "type": "Base"
+    },
+    "calendar case": {
+        "translation": "കലണ്ടർ കേസ്",
+        "type": "Base"
+    },
+    "sessions case": {
+        "translation": "സെഷൻസ് കേസ്",
+        "type": "Base"
+    },
+    "bond execution": {
+        "translation": "ബോണ്ട് നടപ്പാക്കൽ",
+        "type": "Base"
+    },
+    "undertaking affidavit": {
+        "translation": "ഉറപ്പ് സത്യവാങ്മൂലം",
+        "type": "Base"
+    },
+    "civil contempt": {
+        "translation": "സിവിൽ അവമതിപ്പ്",
+        "type": "Base"
+    },
+    "criminal contempt": {
+        "translation": "ക്രിമിനൽ അവമതിപ്പ്",
+        "type": "Base"
+    },
+    "status report": {
+        "translation": "സ്ഥിതി റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "action taken report": {
+        "translation": "നടപടി റിപ്പോർട്ട്",
+        "type": "Base"
+    },
+    "first information statement": {
+        "translation": "പ്രാഥമിക വിവര മൊഴി",
+        "type": "Base"
+    },
+    "station house officer": {
+        "translation": "സ്റ്റേഷൻ ഹൗസ് ഓഫീസർ",
+        "type": "Base"
+    },
+    "investigating officer": {
+        "translation": "അന്വേഷണ ഓഫീസർ",
+        "type": "Base"
+    },
+    "assistant public prosecutor": {
+        "translation": "സഹ പ്രോസിക്യൂട്ടർ",
+        "type": "Base"
+    },
+    "defence counsel": {
+        "translation": "പ്രതിരോധ അഭിഭാഷകൻ",
+        "type": "Base"
+    },
+    "legal services authority": {
+        "translation": "നിയമ സേവന അതോറിറ്റി",
+        "type": "Base"
+    },
+    "free legal aid": {
+        "translation": "സൗജന്യ നിയമസഹായം",
+        "type": "Base"
+    },
+    "lok adalat": {
+        "translation": "ലോക് അദാലത്ത്",
+        "type": "Base"
+    },
+    "permanent lok adalat": {
+        "translation": "സ്ഥിര ലോക് അദാലത്ത്",
+        "type": "Base"
+    },
+    "tribunal order": {
+        "translation": "ട്രൈബ്യൂണൽ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "reference case": {
+        "translation": "റഫറൻസ് കേസ്",
+        "type": "Base"
+    },
+    "remand order": {
+        "translation": "റിമാൻഡ് ഉത്തരവ്",
+        "type": "Base"
+    },
+    "execution court": {
+        "translation": "നടപ്പാക്കൽ കോടതി",
+        "type": "Base"
+    },
+    "attachment order": {
+        "translation": "കയ്യേറ്റ ഉത്തരവ്",
+        "type": "Base"
+    },
+    "auction sale": {
+        "translation": "ലേലം വില്പന",
+        "type": "Base"
+    },
+    "revenue recovery": {
+        "translation": "റവന്യൂ റിക്കവറി",
+        "type": "Base"
+    },
+    "distress warrant": {
+        "translation": "ജപ്തി വാറണ്ട്",
+        "type": "Base"
+    },
+    "tax assessment": {
+        "translation": "നികുതി നിർണ്ണയം",
+        "type": "Base"
+    },
+    "income tax return": {
+        "translation": "ആദായ നികുതി റിട്ടേൺ",
+        "type": "Base"
+    },
+    "input tax credit": {
+        "translation": "ഇൻപുട്ട് നികുതി ക്രെഡിറ്റ്",
+        "type": "Base"
+    },
+    "tax evasion": {
+        "translation": "നികുതി വെട്ടിപ്പ്",
+        "type": "Base"
+    },
+    "audit objection": {
+        "translation": "ഓഡിറ്റ് എതിർപ്പ്",
+        "type": "Base"
+    },
+    "customs duty": {
+        "translation": "കസ്റ്റംസ് തീരുവ",
+        "type": "Base"
+    },
+    "excise duty": {
+        "translation": "എക്സൈസ് തീരുവ",
+        "type": "Base"
+    },
+    "environmental clearance": {
+        "translation": "പരിസ്ഥിതി അനുമതി",
+        "type": "Base"
+    },
+    "pollution control board": {
+        "translation": "മലിനീകരണ നിയന്ത്രണ ബോർഡ്",
+        "type": "Base"
+    },
+    "forest clearance": {
+        "translation": "വനാനുമതി",
+        "type": "Base"
+    },
+    "wildlife protection": {
+        "translation": "വന്യജീവി സംരക്ഷണം",
+        "type": "Base"
+    },
+    "municipal corporation": {
+        "translation": "മുനിസിപ്പൽ കോർപ്പറേഷൻ",
+        "type": "Base"
+    },
+    "building permit": {
+        "translation": "കെട്ടിട അനുമതി",
+        "type": "Base"
+    },
+    "occupancy certificate": {
+        "translation": "ഉപയോഗ സർട്ടിഫിക്കറ്റ്",
+        "type": "Base"
+    },
+    "zoning regulations": {
+        "translation": "മേഖലാ നിയന്ത്രണങ്ങൾ",
+        "type": "Base"
+    },
+    "master plan": {
+        "translation": "മാസ്റ്റർ പ്ലാൻ",
+        "type": "Base"
+    },
+    "development authority": {
+        "translation": "വികസന അതോറിറ്റി",
+        "type": "Base"
+    },
+    "unauthorized construction": {
+        "translation": "അനധികൃത നിർമ്മാണം",
+        "type": "Base"
+    },
+    "demolition notice": {
+        "translation": "പൊളിക്കൽ നോട്ടീസ്",
+        "type": "Base"
+    },
+    "public road": {
+        "translation": "പൊതു വഴി",
+        "type": "Base"
+    },
+    "right of way": {
+        "translation": "വഴിയവകാശം",
+        "type": "Base"
+    },
+    "easement right": {
+        "translation": "ഉപഭോഗാവകാശം",
+        "type": "Base"
+    },
+    "water dispute": {
+        "translation": "ജല തർക്കം",
+        "type": "Base"
+    },
+    "electricity board": {
+        "translation": "വൈദ്യുതി ബോർഡ്",
+        "type": "Base"
+    },
+    "general power of attorney": {
+        "translation": "പൊതു അധികാരപത്രം",
+        "type": "Base"
+    },
+    "special power of attorney": {
+        "translation": "പ്രത്യേക അധികാരപത്രം",
+        "type": "Base"
+    },
+    "revocation": {
+        "translation": "റദ്ദാക്കൽ",
+        "type": "Base"
+    },
+    "ratification": {
+        "translation": "സ്ഥിരീകരണം",
+        "type": "Base"
+    },
+    "indemnity bond": {
+        "translation": "നഷ്ടപരിഹാര ബോണ്ട്",
+        "type": "Base"
+    },
+    "earnest money": {
+        "translation": "അഡ്വാൻസ് തുക",
+        "type": "Base"
+    },
+    "public auction": {
+        "translation": "പൊതു ലേലം",
+        "type": "Base"
+    },
+    "tender notification": {
+        "translation": "ടെൻഡർ വിജ്ഞാപനം",
+        "type": "Base"
+    },
+    "bid document": {
+        "translation": "ബിഡ് രേഖ",
+        "type": "Base"
+    },
+    "lowest bidder": {
+        "translation": "കുറഞ്ഞ നിരക്ക് നൽകിയവൻ",
+        "type": "Base"
+    },
+    "blacklisting": {
+        "translation": "കരിമ്പട്ടികയിൽ ഉൾപ്പെടുത്തൽ",
+        "type": "Base"
+    },
+    "standing counsel": {
+        "translation": "സ്റ്റാൻഡിംഗ് കൗൺസൽ",
+        "type": "Base"
+    },
+    "special prosecutor": {
+        "translation": "പ്രത്യേക പ്രോസിക്യൂട്ടർ",
+        "type": "Base"
+    },
+    "case status": {
+        "translation": "കേസ് നില",
+        "type": "Base"
+    },
+    "copy application": {
+        "translation": "പകർപ്പ് അപേക്ഷ",
+        "type": "Base"
+    },
+    "process fee": {
+        "translation": "നടപടി ഫീസ്",
+        "type": "Base"
+    },
+    "registry objection": {
+        "translation": "റജിസ്ട്രി എതിർപ്പ്",
+        "type": "Base"
+    },
+    "defect curing": {
+        "translation": "അപാകത പരിഹാരം",
+        "type": "Base"
+    },
+    "numbering": {
+        "translation": "നമ്പറിടൽ",
+        "type": "Base"
+    },
+    "short cause": {
+        "translation": "ഷോർട്ട് കോസ്",
+        "type": "Base"
+    },
+    "long cause": {
+        "translation": "ലോംഗ് കോസ്",
+        "type": "Base"
+    },
+    "urgent motion": {
+        "translation": "അത്യാവശ്യ ഹർജി",
+        "type": "Base"
+    },
+    "case bundle": {
+        "translation": "കേസ് ബണ്ടിൽ",
+        "type": "Base"
+    },
+    "reader": {
+        "translation": "റീഡർ",
+        "type": "Base"
+    },
+    "stenographer": {
+        "translation": "സ്റ്റെനോഗ്രാഫർ",
+        "type": "Base"
+    },
+    "judicial officer": {
+        "translation": "ന്യായാധികാരി",
+        "type": "Base"
+    }
+}

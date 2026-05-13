@@ -77,7 +77,7 @@ function showResult(data){
 
     } else if (selectedMode === "translate") {
 
-        // 🔥 NEW: show success message instead of raw text
+        // show success message instead of raw text
         textBox.textContent = data.message || "Translation complete!";
         textBox.classList.remove("hidden");
 
@@ -129,6 +129,7 @@ refreshbtn.addEventListener("click", () => {
     location.reload();
 });
 
+// edit dictionary popup
 const settingsBtn =
 document.getElementById("dictSettingsBtn");
 
@@ -140,12 +141,12 @@ const closeBtn =
 
 
 // OPEN POPUP
-
-settingsBtn.addEventListener("click", () => {
+settingsBtn.addEventListener("click", async () => {
 
     popup.classList.remove("hidden");
-});
 
+    await loadDictionary();
+});
 
 // CLOSE POPUP
 
@@ -163,4 +164,244 @@ window.addEventListener("click", (event) => {
 
         popup.classList.add("hidden");
     }
+});
+
+// =====================================================
+// PAGINATION VARIABLES
+// =====================================================
+
+let dictionaryData = [];
+
+let currentPage = 1;
+
+const rowsPerPage = 20;
+
+
+// =====================================================
+// LOAD DICTIONARY
+// =====================================================
+
+async function loadDictionary() {
+
+    try {
+
+        const response =
+            await fetch("/edit-dict");
+
+        const data =
+            await response.json();
+
+        console.log(data);
+
+        // Convert object to array
+        dictionaryData =
+            Object.entries(data);
+
+        currentPage = 1;
+
+        renderTable();
+
+    } catch(error) {
+
+        console.error(error);
+    }
+}
+
+
+// =====================================================
+// RENDER TABLE
+// =====================================================
+
+function renderTable() {
+
+    const tableBody =
+        document.getElementById(
+            "dictionaryTableBody"
+        );
+
+    tableBody.innerHTML = "";
+
+    // Calculate slice
+    const start =
+        (currentPage - 1) * rowsPerPage;
+
+    const end =
+        start + rowsPerPage;
+
+    const pageData =
+        dictionaryData.slice(start, end);
+
+    // Render rows
+    pageData.forEach(([word, details]) => {
+
+        let translation = "";
+        let type = "Base";
+
+        // New format
+        if (typeof details === "object") {
+
+            translation =
+                details.translation;
+
+            type =
+                details.type || "User";
+        }
+
+        // Old format
+        else {
+
+            translation = details;
+        }
+
+        const row =
+            document.createElement("tr");
+
+        row.innerHTML = `
+            <td>${word}</td>
+
+            <td>${translation}</td>
+
+            <td>
+
+                <span class="tag user-tag">
+                    ${type}
+                </span>
+
+            </td>
+
+            <td>
+
+                <button
+                    class="delete-btn"
+                    data-word="${word}"
+                >
+                    Delete
+                </button>
+
+            </td>
+        `;
+
+        tableBody.appendChild(row);
+    });
+
+    // Update footer count
+    document.getElementById(
+        "dictionaryCount"
+    ).textContent =
+        `${dictionaryData.length} entries`;
+
+    // Update page info
+    const totalPages =
+        Math.ceil(
+            dictionaryData.length /
+            rowsPerPage
+        );
+
+    document.getElementById(
+        "pageInfo"
+    ).textContent =
+        `Page ${currentPage} of ${totalPages}`;
+
+    attachDeleteEvents();
+}
+
+
+// =====================================================
+// NEXT PAGE
+// =====================================================
+
+document.getElementById(
+    "nextPageBtn"
+).addEventListener("click", () => {
+
+    const totalPages =
+        Math.ceil(
+            dictionaryData.length /
+            rowsPerPage
+        );
+
+    if (currentPage < totalPages) {
+
+        currentPage++;
+
+        renderTable();
+    }
+});
+
+
+// =====================================================
+// PREVIOUS PAGE
+// =====================================================
+
+document.getElementById(
+    "prevPageBtn"
+).addEventListener("click", () => {
+
+    if (currentPage > 1) {
+
+        currentPage--;
+
+        renderTable();
+    }
+});
+
+function attachDeleteEvents() {
+
+    const deleteButtons =
+        document.querySelectorAll(".delete-btn");
+
+    deleteButtons.forEach(button => {
+
+        button.addEventListener("click", async () => {
+
+            const word =
+                button.dataset.word;
+
+            await fetch("/delete-word", {
+
+                method: "POST",
+
+                headers: {
+                    "Content-Type": "application/json"
+                },
+
+                body: JSON.stringify({
+                    original: word
+                })
+            });
+
+            loadDictionary();
+        });
+    });
+}
+
+document.getElementById("addWordBtn")
+.addEventListener("click", async () => {
+
+    const original =
+        prompt("Original word:");
+
+    const translation =
+        prompt("Translation:");
+
+    if (!original || !translation) {
+        return;
+    }
+
+    await fetch("/add-word", {
+
+        method: "POST",
+
+        headers: {
+            "Content-Type": "application/json"
+        },
+
+        body: JSON.stringify({
+            original,
+            translation,
+            type: "User"
+        })
+    });
+
+    loadDictionary();
 });

@@ -6,6 +6,7 @@ import os
 from nerParser import extract_text
 from nerEngine import get_entities
 from fileRebuilderV2 import rebuild_pdf
+from DictionaryEditor import load_dictionary, save_dictionary, add_word, delete_word, modify_word, search_word, view_dictionary
 
 app = Flask(__name__)
 
@@ -94,6 +95,38 @@ def download_pdf():
         mimetype="application/pdf"
     )
 
+@app.route("/edit-dict", methods=["GET"])
+def edit_menu():
+
+    data = load_dictionary()
+
+    return jsonify(data)
+
+@app.route("/add-word", methods=["POST"])
+def add_word_route():
+
+    data = request.json
+
+    result = add_word(
+        data.get("original"),
+        data.get("translation"),
+        data.get("type", "User")
+    )
+
+    return jsonify(result)
+
+@app.route("/delete-word", methods=["POST"])
+def delete_word_route():
+
+    data = request.json
+
+    original = data.get("original")
+
+    delete_word(original)
+
+    return jsonify({
+        "status": "deleted"
+    })
 
 
 if __name__ == '__main__':
