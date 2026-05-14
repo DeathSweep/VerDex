@@ -1,4 +1,9 @@
 __pycache__/
-.git
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+models/
 uploads/
-.cache/
+.git/

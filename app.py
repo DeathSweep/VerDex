@@ -65,10 +65,26 @@ def upload():
             })
                     
             elif mode == "extract":
-                parsed = extract_text(filepath)
-                entities = get_entities(parsed)
-                return jsonify(entities)
 
+                parsed_blocks = extract_text(filepath)
+
+                all_entities = []
+
+                for block in parsed_blocks:
+
+                    result = get_entities(block["text"])
+
+                    # Attach page number to every entity
+                    for entity in result["entities"]:
+
+                        entity["page"] = block["page"]
+
+                        all_entities.append(entity)
+
+                return jsonify({
+                    "total_entities": len(all_entities),
+                    "entities": all_entities
+                })
 
         except Exception as e:
             return jsonify({"error": str(e)}), 500
@@ -127,7 +143,6 @@ def delete_word_route():
     return jsonify({
         "status": "deleted"
     })
-
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=3000, debug=True)
